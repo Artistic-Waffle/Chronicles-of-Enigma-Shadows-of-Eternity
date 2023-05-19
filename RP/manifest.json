@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Artistic_Waffle"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.0"
+			],
+			"dash": [
+				"0.10.8"
+			]
+		}
+	},
+	"header": {
+		"name": "Chronicles of Enigma Shadows of Eternity",
+		"description": "In \"Chronicles of Enigma: Shadows of Eternity,\" embark on a perilous quest through enchanted realms as a chosen hero, harnessing the forces of light and darkness to restore balance, confront mythical creatures, and unravel the enigmatic secrets that shape the destiny of Eternia.",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "e118b8f1-0d8c-47ff-a108-fd2b672ad9e6",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "a8a26146-6a3d-4cce-88e3-c21736c0229c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ec6994f8-54cf-474d-8029-7a1defe35011",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

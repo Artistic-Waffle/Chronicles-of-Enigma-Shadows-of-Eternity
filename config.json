@@ -1,0 +1,45 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Chronicles of Enigma Shadows of Eternity",
+	"namespace": "CE",
+	"authors": [
+		"Artistic_Waffle"
+	],
+	"targetVersion": "1.20.0",
+	"description": "In \"Chronicles of Enigma: Shadows of Eternity,\" embark on a perilous quest through enchanted realms as a chosen hero, harnessing the forces of light and darkness to restore balance, confront mythical creatures, and unravel the enigmatic secrets that shape the destiny of Eternia.",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"upcomingCreatorFeatures": true,
+		"enableGameTestFramework": true,
+		"experimentalMolangFeatures": true,
+		"educationEdition": false
+	},
+	"bdsProject": true,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Chronicles of Enigma Shadows of Eternity"
+				}
+			]
+		]
+	}
+}
