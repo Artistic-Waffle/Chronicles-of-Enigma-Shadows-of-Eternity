@@ -2,7 +2,7 @@
     "format_version": "1.20.10",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:whisperwood",
+            "identifier": "coe:whisperwood_leaves",
             "is_experimental": false,
             "menu_category": {
                 "category": "construction"
@@ -35,16 +35,11 @@
 				]
 			},
             "minecraft:destructible_by_explosion" : true,
-            "minecraft:display_name": "Whisperwood",
+            "minecraft:display_name": "Whisperwood Leaves",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "whisperwood"      
-                },
-                "up":{
-                    "texture": "whisperwood_top"      
-                },
-                "down":{
-                    "texture": "whisperwood_top"
+                    "texture": "whisperwood_leaves",
+                    "render_method": "alpha_test"     
                 }
             }
         },

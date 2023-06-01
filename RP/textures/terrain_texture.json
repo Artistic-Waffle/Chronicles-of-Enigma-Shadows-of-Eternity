@@ -9,6 +9,18 @@
 		},
 		"whisperwood_top" : {
 			"textures" : "textures/blocks/whisperwood_top"
+		},
+		"whisperwood_planks":{
+			"textures": "textures/blocks/whisperwood_planks"
+		},
+		"whisperwood_leaves":{
+			"textures": "textures/blocks/whisperwood_leaves"
+		},
+		"whispershade_grass_side":{
+			"textures": "textures/blocks/whispershade_grass_side"
+		},
+		"whispershade_grass_top":{
+			"textures": "textures/blocks/whispershade_grass_top"
 		}
 	}
 }

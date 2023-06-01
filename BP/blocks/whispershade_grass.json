@@ -2,7 +2,7 @@
     "format_version": "1.20.10",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:whisperwood",
+            "identifier": "coe:whispershade_grass",
             "is_experimental": false,
             "menu_category": {
                 "category": "construction"
@@ -35,16 +35,13 @@
 				]
 			},
             "minecraft:destructible_by_explosion" : true,
-            "minecraft:display_name": "Whisperwood",
+            "minecraft:display_name": "Whispershade Grass",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "whisperwood"      
+                    "texture": "whispershade_grass_side"      
                 },
                 "up":{
-                    "texture": "whisperwood_top"      
-                },
-                "down":{
-                    "texture": "whisperwood_top"
+                    "texture": "whispershade_grass_top"
                 }
             }
         },

@@ -3,5 +3,24 @@
 		1,
 		1,
 		0
-	]
+	],
+	"whisperwood" :{
+		"carried_textures":{
+			"side": "whisperwood",
+			"down": "whisperwood_top",
+			"up": "whisperwood_top"
+		}
+	},
+	"whisperwood_planks":{
+		"textures": "whisperwood_planks"
+	},
+	"whisperwood_leaves":{
+		"textures": "whisperwood_leaves"
+	},
+	"whispershade_grass":{
+		"carried_textures": {
+			"side": "whispershade_grass_side",
+			"up": "whispershade_grass_top"
+		}
+	}
 }
