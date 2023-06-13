@@ -18,9 +18,21 @@
 		"textures": "whisperwood_leaves"
 	},
 	"whispershade_grass":{
-		"carried_textures": {
-			"side": "whispershade_grass_side",
-			"up": "whispershade_grass_top"
-		}
+		"sound": "stone"
+	},
+	"cherry_wood_table":{
+		"sound": "stone"
+	},
+	"inverted_cherry_wood_chair":{
+		"sound": "wood"
+	},
+	"cherry_wood_chair":{
+		"sound": "wood"
+	},
+	"cherry_planks_chair":{
+		"sound": "wood"
+	},
+	"cherry_chair_fancy":{
+		"sound": "wood"
 	}
 }

@@ -1,0 +1,143 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "coe:inverted_cherry_wood_chair",
+            "menu_category": {
+                "category": "construction"
+            },
+            "properties": {
+				"coe:rotation":[
+					2,
+					3,
+					4,
+					5
+				]
+			}
+            
+        },
+        "permutations": [
+			{
+				"condition": "query.block_property('coe:rotation') == 2",
+				"components": {
+					"minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+				}
+			},
+			{
+				"condition": "query.block_property('coe:rotation') == 3",
+				"components": {
+					"minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+				}
+			},
+			{
+				"condition": "query.block_property('coe:rotation') == 4",
+				"components": {
+					"minecraft:transformation": {
+                        "rotation": [  
+                        0,
+                        270,
+            			0  
+                        ]
+                    }
+				}
+			},
+			{
+				"condition": "query.block_property('coe:rotation') == 5",
+				"components": {
+					"minecraft:transformation": {
+                        "rotation": [
+                        0,
+						90,
+						0
+                        ]
+                    }
+				}
+			}
+		],
+        "components": {
+            "minecraft:geometry":{
+                "identifier": "geometry.chair"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "inverted_cherry_wood_chair"
+                }
+            },
+            "minecraft:display_name": "Inverted Cherry Chair",
+            "minecraft:collision_box" : {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:selection_box" : {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+            "minecraft:on_player_placing": {
+				"event": "coe:update_rotation"
+			},
+            "minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.2
+			},
+			"minecraft:on_interact": {
+				"event": "coe:sit"
+			}
+        },
+        "events": {
+			"coe:update_rotation":{
+				"set_block_property":{
+					"coe:rotation": "query.cardinal_facing_2d"
+				}
+			},
+			"force_ride":{
+				"run_command":{
+					"command":[
+						"ride @p start_riding @e[type=coe:chair_sit,c=1] teleport_rider"
+					]
+				}
+			},
+			"coe:sit":{
+				"sequence" : [
+					{
+						"run_command":{
+							"command":[
+								"summon coe:chair_sit ~ ~-0.4 ~",
+								"execute as @e[type=coe:chair_sit,c=1] run tp @s ~ ~-0.4 ~ facing @p"
+							]
+						},
+						"trigger":{
+							"event": "force_ride"
+						}
+					}
+				]
+			}
+		}
+	}
+}

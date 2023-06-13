@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "coe:cherry_wood_table"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#!#",
+            " # ",
+            " # "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:cherry_log"
+            },
+            "!":{
+                "item": "minecraft:cherry_trapdoor"
+            }
+        },
+        "result": {
+            "item": "coe:cherry_wood_table",
+            "count": 1
+        }
+    }
+}

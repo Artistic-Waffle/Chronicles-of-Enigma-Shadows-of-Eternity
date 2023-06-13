@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "coe:cherry_wood_chair"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#  ",
+            "#@#",
+            "# #"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:stripped_cherry_wood"
+            },
+            "@":{
+                "item": "minecraft:cherry_wood"
+            }
+        },
+        "result": {
+            "item": "coe:cherry_wood_chair",
+            "count": 1
+        }
+    }
+}

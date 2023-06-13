@@ -1,0 +1,51 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "coe:cherry_wood_table",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:geometry":{
+                "identifier": "geometry.cherry_wood_table"
+                
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cherry_wood_table"
+                }
+            },
+            "minecraft:display_name": "Wooden Cherry Table",
+            "minecraft:collision_box" : {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+			"minecraft:selection_box" : {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					16
+				]
+			},
+            "minecraft:on_player_placing": {
+                "event": "coe:update"
+            }
+        }
+        
+    }
+}

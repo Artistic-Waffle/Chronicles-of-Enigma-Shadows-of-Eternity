@@ -21,6 +21,21 @@
 		},
 		"whispershade_grass_top":{
 			"textures": "textures/blocks/whispershade_grass_top"
+		},
+		"cherry_chair_fancy":{
+			"textures": "textures/blocks/decor/cherry_chair_fancy"
+		},
+		"cherry_wood_table":{
+			"textures": "textures/blocks/decor/cherry_wood_table"
+		},
+		"inverted_cherry_wood_chair":{
+			"textures": "textures/blocks/decor/inverted_cherry_wood_chair"
+		},
+		"cherry_wood_chair":{
+			"textures":"textures/blocks/decor/cherry_wood_chair"
+		},
+		"cherry_planks_chair":{
+			"textures":"textures/blocks/decor/cherry_planks_chair"
 		}
 	}
 }
