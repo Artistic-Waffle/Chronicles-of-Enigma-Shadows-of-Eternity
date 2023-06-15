@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:inverted_cherry_wood_chair",
+            "identifier": "coe:inverted_birch_chair",
             "menu_category": {
                 "category": "construction"
             },
@@ -72,10 +72,10 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "inverted_cherry_wood_chair"
+                    "texture": "inverted_birch_chair"
                 }
             },
-            "minecraft:display_name": "Inverted Cherry Chair",
+            "minecraft:display_name": "Inverted Birch Chair",
             "minecraft:collision_box" : {
 				"origin": [
 					-6,

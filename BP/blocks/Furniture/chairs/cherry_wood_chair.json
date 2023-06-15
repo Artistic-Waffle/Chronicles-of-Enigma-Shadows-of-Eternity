@@ -78,26 +78,26 @@
             "minecraft:display_name": "Cherry Chair",
             "minecraft:collision_box" : {
 				"origin": [
-					-8,
+					-6,
 					0,
-					-8
+					-6
 				],
 				"size": [
-					16,
-					16,
-					16
+					12,
+					10,
+					12
 				]
 			},
 			"minecraft:selection_box" : {
 				"origin": [
-					-8,
+					-6,
 					0,
-					-8
+					-6
 				],
 				"size": [
-					16,
-					16,
-					16
+					12,
+					10,
+					12
 				]
 			},
             "minecraft:on_player_placing": {

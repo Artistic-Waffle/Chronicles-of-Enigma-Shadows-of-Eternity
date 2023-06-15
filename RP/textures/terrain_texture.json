@@ -34,8 +34,59 @@
 		"cherry_wood_chair":{
 			"textures":"textures/blocks/decor/cherry_wood_chair"
 		},
-		"cherry_planks_chair":{
-			"textures":"textures/blocks/decor/cherry_planks_chair"
+		"acacia_chair":{
+			"textures": "textures/blocks/decor/acacia_chair"
+		},
+		"inverted_acacia_chair":{
+			"textures": "textures/blocks/decor/inverted_acacia_chair"
+		},
+		"birch_chair":{
+			"textures": "textures/blocks/decor/birch_chair"
+		},
+		"inverted_birch_chair":{
+			"textures": "textures/blocks/decor/inverted_birch_chair"
+		},
+		"dark_oak_chair":{
+			"textures": "textures/blocks/decor/dark_oak_chair"
+		},
+		"inverted_dark_oak_chair":{
+			"textures": "textures/blocks/decor/inverted_dark_oak_chair"
+		},
+		"jungle_chair":{
+			"textures": "textures/blocks/decor/jungle_chair"
+		},
+		"inverted_jungle_chair":{
+			"textures": "textures/blocks/decor/inverted_jungle_chair"
+		},
+		"mangrove_chair":{
+			"textures": "textures/blocks/decor/mangrove_chair"
+		},
+		"inverted_mangrove_chair":{
+			"textures": "textures/blocks/decor/inverted_mangrove_chair"
+		},
+		"oak_chair":{
+			"textures": "textures/blocks/decor/oak_chair"
+		},
+		"inverted_oak_chair":{
+			"textures": "textures/blocks/decor/inverted_oak_chair"
+		},
+		"spruce_chair":{
+			"textures": "textures/blocks/decor/spruce_chair"
+		},
+		"inverted_spruce_chair":{
+			"textures": "textures/blocks/decor/inverted_spruce_chair"
+		},
+		"crimson_stem_chair":{
+			"textures": "textures/blocks/decor/crimson_stem_chair"
+		},
+		"inverted_crimson_stem_chair":{
+			"textures": "textures/blocks/decor/inverted_crimson_stem_chair"
+		},
+		"warped_stem_chair":{
+			"textures": "textures/blocks/decor/warped_stem_chair"
+		},
+		"inverted_warped_stem_chair":{
+			"textures": "textures/blocks/decor/inverted_warped_stem_chair"
 		}
 	}
 }

@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:cherry_planks_chair",
+            "identifier": "coe:crimson_stem_chair",
             "menu_category": {
                 "category": "construction"
             },
@@ -72,32 +72,32 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "cherry_planks_chair"
+                    "texture": "crimson_stem_chair"
                 }
             },
-            "minecraft:display_name": "Cherry Chair Planks",
+            "minecraft:display_name": "Crimsion Stem Chair",
             "minecraft:collision_box" : {
 				"origin": [
-					-8,
+					-6,
 					0,
-					-8
+					-6
 				],
 				"size": [
-					16,
-					16,
-					16
+					12,
+					10,
+					12
 				]
 			},
 			"minecraft:selection_box" : {
 				"origin": [
-					-8,
+					-6,
 					0,
-					-8
+					-6
 				],
 				"size": [
-					16,
-					16,
-					16
+					12,
+					10,
+					12
 				]
 			},
             "minecraft:on_player_placing": {
