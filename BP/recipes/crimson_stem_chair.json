@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "coe:inverted_cherry_wood_chair"
+            "identifier": "coe:crimson_stem_chair"
         },
         "tags": [
             "crafting_table"
@@ -14,14 +14,14 @@
         ],
         "key": {
             "#": {
-                "item": "minecraft:cherry_log"
+                "item": "minecraft:stripped_crimson_stem"
             },
             "@":{
-                "item": "minecraft:stripped_cherry_log"
+                "item": "minecraft:crimson_stem"
             }
         },
         "result": {
-            "item": "coe:inverted_cherry_wood_chair",
+            "item": "coe:crimson_stem_chair",
             "count": 1
         }
     }
