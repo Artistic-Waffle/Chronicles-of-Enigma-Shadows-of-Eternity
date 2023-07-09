@@ -18,11 +18,7 @@
                     "player"
                 ],
                 "seats": {
-                    "position": [
-                        0,
-                        0.4,
-                        -0.2
-                    ]
+                    "position": [0,0.63,0]
                 }
             },
             "minecraft:type_family": {
@@ -36,12 +32,13 @@
                 "max": 1
             },
             "minecraft:collision_box": {
-                "width": 0.1,
-                "height": 0.1
+                "width": 0.12,
+                "height": 0.10
             },
             "minecraft:physics": {
                 "has_gravity": false,
-                "has_collision": false
+                "has_collision": false,
+                "push_towards_closest_space": false
             },
             "minecraft:environment_sensor": {
                 "triggers": [

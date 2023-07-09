@@ -3,36 +3,19 @@
     "minecraft:block": {
         "description": {
             "identifier": "coe:whispershade_grass",
-            "is_experimental": false,
             "menu_category": {
-                "category": "none"
+                "category": "nature"
             }
         },
         "permutations": [],
         "components": {
-            "minecraft:collision_box" : {
-				"origin": [
-					-8,
-					0,
-					-8
-				],
-				"size": [
-					16,
-					16,
-					16
-				]
+            "minecraft:collision_box": {
+				"origin": [-8,0,-8],
+				"size": [16,16,16]
 			},
-			"minecraft:selection_box" : {
-				"origin": [
-					-8,
-					0,
-					-8
-				],
-				"size": [
-					16,
-					16,
-					16
-				]
+			"minecraft:selection_box": {
+				"origin": [-8,0,-8],
+				"size": [16,16,16]
 			},
             "minecraft:destructible_by_explosion" : true,
             "minecraft:display_name": "Whispershade Grass",
@@ -43,9 +26,7 @@
                 "up":{
                     "texture": "whispershade_grass_top"
                 }
-                //fix this block
             }
-        },
-        "events": {}
+        }
     }
 }

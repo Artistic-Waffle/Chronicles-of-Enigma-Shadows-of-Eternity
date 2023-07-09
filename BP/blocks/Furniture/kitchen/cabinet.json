@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "coe:acacia_cabinet",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.cabinet",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "acacia_cabinet",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8,0,-8],
+				"size": [16,16,16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8,0,-8],
+				"size": [16,16,16]
+			},
+			"minecraft:display_name": "Acacia Cabinet"
+		}
+	}
+}

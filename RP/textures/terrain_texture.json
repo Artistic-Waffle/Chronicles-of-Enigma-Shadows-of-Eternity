@@ -87,6 +87,24 @@
 		},
 		"inverted_warped_stem_chair":{
 			"textures": "textures/blocks/decor/inverted_warped_stem_chair"
+		},
+		"acacia_kitchen_drawer":{
+			"textures":"textures/blocks/decor/acacia_kitchen_drawer"
+		},
+		"acacia_cabinet":{
+			"textures":"textures/blocks/decor/acacia_cabinet"
+		},
+		"acacia_kitchen_counter":{
+			"textures":"textures/blocks/decor/acacia_kitchen_counter"
+		},
+		"blackstone_altar":{
+			"textures": "textures/blocks/blackstone_altar"
+		},
+		"ethereal_verdure_side":{
+			"textures": "textures/blocks/enigma_grove/ethereal_verdure_side"
+		},
+		"ethereal_verdure_top":{
+			"textures": "textures/blocks/enigma_grove/ethereal_verdure_top"
 		}
 	}
 }

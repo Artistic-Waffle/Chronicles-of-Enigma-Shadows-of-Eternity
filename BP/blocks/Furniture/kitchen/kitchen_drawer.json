@@ -1,0 +1,73 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "coe:acacia_kitchen_drawer",
+			"menu_category": {
+				"category": "construction"
+			},
+			
+			"traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": ["minecraft:cardinal_direction"],
+                    "y_rotation_offset": 180
+                }
+            }
+		},
+		"permutations": [
+            {
+                "condition": "q.block_property('minecraft:cardinal_direction') == 0",
+                
+                "components": {
+                    "minecraft:transformation": {"rotation": [0, 180, 0]}
+                }
+            },
+            {
+                "condition": "q.block_property('minecraft:cardinal_direction') == 1",
+                
+                "components": {
+                    "minecraft:transformation": {"rotation": [0, 90, 0]}
+                }
+            },
+            {
+                "condition": "q.block_property('minecraft:cardinal_direction') == 2",
+                
+                "components": {
+                    "minecraft:transformation": {"rotation": [0, 0, 0]}
+                }
+            },
+            {
+                "condition": "q.block_property('minecraft:cardinal_direction') == 3",
+                
+                "components": {
+                    "minecraft:transformation": {"rotation": [0, -90, 0]}
+                }
+            }
+        ],
+		"components": {
+			"minecraft:geometry": "geometry.kitchen_drawer",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "acacia_kitchen_drawer",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8,0,-8],
+				"size": [16,16,16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8,0,-8],
+				"size": [16,16,16]
+			},
+			"minecraft:display_name": "Acacia Kitchen Drawer",
+			"minecraft:on_player_placing": {
+				"event": "coe:update"
+			}
+		},
+		"events": {
+			"coe:rotate":{
+			}
+		}
+	}
+}

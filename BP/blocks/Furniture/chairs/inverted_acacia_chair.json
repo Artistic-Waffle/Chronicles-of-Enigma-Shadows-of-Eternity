@@ -21,11 +21,7 @@
 				"condition": "query.block_property('coe:rotation') == 2",
 				"components": {
 					"minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            180,
-                            0
-                        ]
+                        "rotation": [0,180,0]
                     }
 				}
 			},
@@ -33,11 +29,7 @@
 				"condition": "query.block_property('coe:rotation') == 3",
 				"components": {
 					"minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            0,
-                            0
-                        ]
+                        "rotation": [0,0,0]
                     }
 				}
 			},
@@ -45,11 +37,7 @@
 				"condition": "query.block_property('coe:rotation') == 4",
 				"components": {
 					"minecraft:transformation": {
-                        "rotation": [  
-                        0,
-                        270,
-            			0  
-                        ]
+                        "rotation": [0,270,0]
                     }
 				}
 			},
@@ -57,11 +45,7 @@
 				"condition": "query.block_property('coe:rotation') == 5",
 				"components": {
 					"minecraft:transformation": {
-                        "rotation": [
-                        0,
-						90,
-						0
-                        ]
+                        "rotation": [0,90,0]
                     }
 				}
 			}
@@ -126,10 +110,47 @@
 			"coe:sit":{
 				"sequence" : [
 					{
+						"condition": "query.block_property('coe:rotation') == 2",
 						"run_command":{
 							"command":[
-								"summon coe:chair_sit ~ ~-0.4 ~",
-								"execute as @e[type=coe:chair_sit,c=1] run tp @s ~ ~-0.4 ~ facing @p"
+								"summon coe:chair_sit ~ ~ ~",
+								"execute as @e[type=coe:chair_sit,c=1] run tp @s ~ ~-0.63 ~ facing ~ ~ 180"
+							]
+						},
+						"trigger":{
+							"event": "force_ride"
+						}
+					},
+					{
+						"condition": "query.block_property('coe:rotation') == 3",
+						"run_command":{
+							"command":[
+								"summon coe:chair_sit ~ ~ ~ facing",
+								"execute as @e[type=coe:chair_sit,c=1] run tp @s ~ ~-0.63 ~ facing ~ ~ -180"
+							]
+						},
+						"trigger":{
+							"event": "force_ride"
+						}
+					},
+					{
+						"condition": "query.block_property('coe:rotation') == 4",
+						"run_command":{
+							"command":[
+								"summon coe:chair_sit ~ ~ ~",
+								"execute as @e[type=coe:chair_sit,c=1] run tp @s ~ ~-0.63 ~ facing ~90 ~ ~"
+							]
+						},
+						"trigger":{
+							"event": "force_ride"
+						}
+					},
+					{
+						"condition": "query.block_property('coe:rotation') == 5",
+						"run_command":{
+							"command":[
+								"summon coe:chair_sit ~ ~ ~",
+								"execute as @e[type=coe:chair_sit,c=1] run tp @s ~ ~-0.63 ~ facing ~-90 ~ ~"
 							]
 						},
 						"trigger":{
