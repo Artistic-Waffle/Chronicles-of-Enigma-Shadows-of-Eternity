@@ -1,0 +1,41 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:block": {
+        "description": {
+            "identifier": "coe:oak_table",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        
+        "components": {
+            "minecraft:collision_box": {
+                "origin": [-8,0,-8],
+				"size": [16,16,16]
+            },
+            "minecraft:selection_box":{
+                "origin": [-8,0,-8],
+				"size": [16,16,16]
+            },
+            "minecraft:geometry":{
+                "identifier": "geometry.table",
+                "bone_visibility": {
+                    "main_leg":true,
+                    "left_front":false,
+                    "left_back":false,
+                    "right_front":false,
+                    "right_back":false
+                }
+                
+            },
+            "minecraft:material_instances": {
+                "*":{
+                    "texture": "oak_table",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:display_name": "Oak Table"
+        }
+        
+    }
+}

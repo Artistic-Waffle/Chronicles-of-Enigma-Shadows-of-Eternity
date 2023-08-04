@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:block": {
+        "description": {
+            "identifier": "coe:unknown_catalyst",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        
+        "components": {
+            "minecraft:collision_box": {
+                "origin": [-8,0,-8],
+				"size": [16,16,16]
+            },
+            "minecraft:selection_box":{
+                "origin": [-8,0,-8],
+				"size": [16,16,16]
+            },
+            "minecraft:material_instances": {
+                "*":{
+                    "texture": "unknown_catalyst",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:display_name": "Unknown Catalyst",
+            "minecraft:unit_cube": {}
+        }
+        
+    }
+}

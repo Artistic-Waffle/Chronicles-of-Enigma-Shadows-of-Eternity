@@ -23,70 +23,70 @@
 			"textures": "textures/blocks/whispershade_grass_top"
 		},
 		"cherry_chair_fancy":{
-			"textures": "textures/blocks/decor/cherry_chair_fancy"
+			"textures": "textures/blocks/decor/chairs/cherry_chair_fancy"
 		},
 		"cherry_wood_table":{
-			"textures": "textures/blocks/decor/cherry_wood_table"
+			"textures": "textures/blocks/decor/chairs/cherry_wood_table"
 		},
 		"inverted_cherry_wood_chair":{
-			"textures": "textures/blocks/decor/inverted_cherry_wood_chair"
+			"textures": "textures/blocks/decor/chairs/inverted_cherry_wood_chair"
 		},
 		"cherry_wood_chair":{
-			"textures":"textures/blocks/decor/cherry_wood_chair"
+			"textures":"textures/blocks/decor/chairs/cherry_wood_chair"
 		},
 		"acacia_chair":{
-			"textures": "textures/blocks/decor/acacia_chair"
+			"textures": "textures/blocks/decor/chairs/acacia_chair"
 		},
 		"inverted_acacia_chair":{
-			"textures": "textures/blocks/decor/inverted_acacia_chair"
+			"textures": "textures/blocks/decor/chairs/inverted_acacia_chair"
 		},
 		"birch_chair":{
-			"textures": "textures/blocks/decor/birch_chair"
+			"textures": "textures/blocks/decor/chairs/birch_chair"
 		},
 		"inverted_birch_chair":{
-			"textures": "textures/blocks/decor/inverted_birch_chair"
+			"textures": "textures/blocks/decor/chairs/inverted_birch_chair"
 		},
 		"dark_oak_chair":{
-			"textures": "textures/blocks/decor/dark_oak_chair"
+			"textures": "textures/blocks/decor/chairs/dark_oak_chair"
 		},
 		"inverted_dark_oak_chair":{
-			"textures": "textures/blocks/decor/inverted_dark_oak_chair"
+			"textures": "textures/blocks/decor/chairs/inverted_dark_oak_chair"
 		},
 		"jungle_chair":{
-			"textures": "textures/blocks/decor/jungle_chair"
+			"textures": "textures/blocks/decor/chairs/jungle_chair"
 		},
 		"inverted_jungle_chair":{
-			"textures": "textures/blocks/decor/inverted_jungle_chair"
+			"textures": "textures/blocks/decor/chairs/inverted_jungle_chair"
 		},
 		"mangrove_chair":{
-			"textures": "textures/blocks/decor/mangrove_chair"
+			"textures": "textures/blocks/decor/chairs/mangrove_chair"
 		},
 		"inverted_mangrove_chair":{
-			"textures": "textures/blocks/decor/inverted_mangrove_chair"
+			"textures": "textures/blocks/decor/chairs/inverted_mangrove_chair"
 		},
 		"oak_chair":{
-			"textures": "textures/blocks/decor/oak_chair"
+			"textures": "textures/blocks/decor/chairs/oak_chair"
 		},
 		"inverted_oak_chair":{
-			"textures": "textures/blocks/decor/inverted_oak_chair"
+			"textures": "textures/blocks/decor/chairs/inverted_oak_chair"
 		},
 		"spruce_chair":{
-			"textures": "textures/blocks/decor/spruce_chair"
+			"textures": "textures/blocks/decor/chairs/spruce_chair"
 		},
 		"inverted_spruce_chair":{
-			"textures": "textures/blocks/decor/inverted_spruce_chair"
+			"textures": "textures/blocks/decor/chairs/inverted_spruce_chair"
 		},
 		"crimson_stem_chair":{
-			"textures": "textures/blocks/decor/crimson_stem_chair"
+			"textures": "textures/blocks/decor/chairs/crimson_stem_chair"
 		},
 		"inverted_crimson_stem_chair":{
-			"textures": "textures/blocks/decor/inverted_crimson_stem_chair"
+			"textures": "textures/blocks/decor/chairs/inverted_crimson_stem_chair"
 		},
 		"warped_stem_chair":{
-			"textures": "textures/blocks/decor/warped_stem_chair"
+			"textures": "textures/blocks/decor/chairs/warped_stem_chair"
 		},
 		"inverted_warped_stem_chair":{
-			"textures": "textures/blocks/decor/inverted_warped_stem_chair"
+			"textures": "textures/blocks/decor/chairs/inverted_warped_stem_chair"
 		},
 		"acacia_kitchen_drawer":{
 			"textures":"textures/blocks/decor/acacia_kitchen_drawer"
@@ -105,6 +105,105 @@
 		},
 		"ethereal_verdure_top":{
 			"textures": "textures/blocks/enigma_grove/ethereal_verdure_top"
+		},
+		"oak_table":{
+			"textures": "textures/blocks/decor/tables/oak_table"
+		},"stripped_oak_table":{
+			"textures": "textures/blocks/decor/tables/stripped_oak_table"
+		},"acacia_table":{
+			"textures": "textures/blocks/decor/tables/acacia_table"
+		},"stripped_acacia_table":{
+			"textures": "textures/blocks/decor/tables/stripped_acacia_table"
+		},"birch_table":{
+			"textures": "textures/blocks/decor/tables/birch_table"
+		},"stripped_birch_table":{
+			"textures": "textures/blocks/decor/tables/stripped_birch_table"
+		},"cherry_table":{
+			"textures": "textures/blocks/decor/tables/cherry_table"
+		},"stripped_cherry_table":{
+			"textures": "textures/blocks/decor/tables/stripped_cherry_table"
+		},"crimson_stem_table":{
+			"textures": "textures/blocks/decor/tables/crimson_stem_table"
+		},"stripped_crimson_stem_table":{
+			"textures": "textures/blocks/decor/tables/stripped_crimson_stem_table"
+		},"dark_oak_table":{
+			"textures": "textures/blocks/decor/tables/dark_oak_table"
+		},"stripped_dark_oak_table":{
+			"textures": "textures/blocks/decor/tables/stripped_dark_oak_table"
+		},"jungle_table":{
+			"textures": "textures/blocks/decor/tables/jungle_table"
+		},"stripped_jungle_table":{
+			"textures": "textures/blocks/decor/tables/stripped_jungle_table"
+		},"mangrove_table":{
+			"textures": "textures/blocks/decor/tables/mangrove_table"
+		},"stripped_mangrove_table":{
+			"textures": "textures/blocks/decor/tables/stripped_mangrove_table"
+		},"spruce_table":{
+			"textures": "textures/blocks/decor/tables/spruce_table"
+		},"stripped_spruce_table":{
+			"textures": "textures/blocks/decor/tables/stripped_spruce_table"
+		},"warped_stem_table":{
+			"textures": "textures/blocks/decor/tables/warped_stem_table"
+		},"stripped_warped_stem_table":{
+			"textures": "textures/blocks/decor/tables/stripped_warped_stem_table"
+		},
+		"debug_block":{
+			"textures": "textures/blocks/debug_block"
+		},
+		"chandelier":{
+			"textures":"textures/blocks/decor/chandelier"
+		},
+		"pedestal":{
+			"textures":"textures/blocks/decor/pedestal"
+		},
+		"wine_crate":{
+			"textures":"textures/blocks/decor/wine_crate"
+		},
+		"statue":{
+			"textures":"textures/blocks/statue"
+		},
+		"shelf":{
+			"textures":"textures/blocks/decor/shelf"
+		},
+		"bench":{
+			"textures":"textures/blocks/decor/bench"
+		},
+		"candle":{
+			"textures":"textures/blocks/wip/candle"
+		},
+		"keg":{
+			"textures":"textures/blocks/wip/keg"
+		},
+		"mug":{
+			"textures":"textures/blocks/wip/mug"
+		},
+		"water_lilly_pad":{
+			"textures":"textures/blocks/wip/water_lilly_pad"
+		},
+		"wine_bottle":{
+			"textures":"textures/blocks/wip/wine_bottle"
+		},
+		"witch_cauldron":{
+			"textures":"textures/blocks/wip/witch_cauldron"
+		},
+		"wooden_box":{
+			"textures":"textures/blocks/wip/wooden_box"
+		},
+		"unknown_catalyst":{
+			"textures":"textures/blocks/wip/unknown_catalyst"
+		},
+		"twig":{
+			"textures":"textures/blocks/wip/twig"
+		},
+		"pebble_path":{
+			"textures":"textures/blocks/wip/pebble_path"
+		},
+		"dark_pedestal":{
+			"textures":"textures/blocks/wip/dark_pedestal"
+		},
+		"glass_jar":{
+			"textures":"textures/blocks/wip/glass_jar"
 		}
+		
 	}
 }

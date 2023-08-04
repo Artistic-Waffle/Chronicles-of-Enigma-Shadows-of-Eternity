@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:whisperwood_leaves",
+            "identifier": "coe:whispershade_grass",
             "menu_category": {
                 "category": "nature"
             }
@@ -18,14 +18,16 @@
 				"size": [16,16,16]
 			},
             "minecraft:destructible_by_explosion" : true,
-            "minecraft:display_name": "Whisperwood Leaves",
+            "minecraft:display_name": "Whispershade Grass",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "whisperwood_leaves",
-                    "render_method": "alpha_test"     
+                    "texture": "whispershade_grass_side"      
+                },
+                "up":{
+                    "texture": "whispershade_grass_top"
                 }
-            }
-        },
-        "events": {}
+            },
+            "minecraft:unit_cube": {}
+        }
     }
 }
