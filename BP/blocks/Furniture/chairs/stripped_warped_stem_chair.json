@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:inverted_oak_chair",
+            "identifier": "coe:stripped_warped_stem_chair",
             "menu_category": {
                 "category": "construction"
             },
@@ -56,10 +56,10 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "inverted_oak_chair"
+                    "texture": "stripped_warped_stem_chair"
                 }
             },
-            "minecraft:display_name": "Inverted Oak Chair",
+            "minecraft:display_name": "Stripped Warped Stem Chair",
             "minecraft:collision_box" : {
 				"origin": [
 					-6,

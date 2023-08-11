@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "coe:inverted_oak_chair"
+            "identifier": "coe:stripped_oak_chair"
         },
         "tags": [
             "crafting_table"
@@ -21,7 +21,7 @@
             }
         },
         "result": {
-            "item": "coe:inverted_oak_chair",
+            "item": "coe:stripped_oak_chair",
             "count": 1
         }
     }

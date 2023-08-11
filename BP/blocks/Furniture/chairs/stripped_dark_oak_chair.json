@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:inverted_acacia_chair",
+            "identifier": "coe:stripped_dark_oak_chair",
             "menu_category": {
                 "category": "construction"
             },
@@ -56,10 +56,10 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "inverted_acacia_chair"
+                    "texture": "stripped_dark_oak_chair"
                 }
             },
-            "minecraft:display_name": "Inverted Acacia Chair",
+            "minecraft:display_name": "Stripped Dark Oak Chair",
             "minecraft:collision_box" : {
 				"origin": [
 					-6,

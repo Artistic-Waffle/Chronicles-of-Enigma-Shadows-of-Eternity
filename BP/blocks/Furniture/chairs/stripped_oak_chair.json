@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:inverted_spruce_chair",
+            "identifier": "coe:stripped_oak_chair",
             "menu_category": {
                 "category": "construction"
             },
@@ -56,10 +56,10 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "inverted_spruce_chair"
+                    "texture": "stripped_oak_chair"
                 }
             },
-            "minecraft:display_name": "Inverted Spurce Chair",
+            "minecraft:display_name": "Stripped Oak Chair",
             "minecraft:collision_box" : {
 				"origin": [
 					-6,

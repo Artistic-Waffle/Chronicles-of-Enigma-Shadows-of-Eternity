@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:inverted_warped_stem_chair",
+            "identifier": "coe:stripped_birch_chair",
             "menu_category": {
                 "category": "construction"
             },
@@ -56,10 +56,10 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "inverted_warped_stem_chair"
+                    "texture": "stripped_birch_chair"
                 }
             },
-            "minecraft:display_name": "Inverted Warped Stem Chair",
+            "minecraft:display_name": "Stripped Birch Chair",
             "minecraft:collision_box" : {
 				"origin": [
 					-6,

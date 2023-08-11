@@ -23,7 +23,7 @@
 	"cherry_wood_table":{
 		"sound": "stone"
 	},
-	"inverted_cherry_wood_chair":{
+	"stripped_cherry_wood_chair":{
 		"sound": "wood"
 	},
 	"cherry_wood_chair":{
@@ -35,55 +35,55 @@
 	"acacia_chair":{
 		"sound": "wood" 
 	},
-	"inverted_acacia_chair":{
+	"stripped_acacia_chair":{
 		"sound": "wood" 
 	},
 	"birch_chair":{
 		"sound": "wood" 
 	},
-	"inverted_birch_chair":{
+	"stripped_birch_chair":{
 		"sound": "wood" 
 	},
 	"dark_oak_chair":{
 		"sound": "wood" 
 	},
-	"inverted_dark_oak_chair":{
+	"stripped_dark_oak_chair":{
 		"sound": "wood" 
 	},
 	"jungle_chair":{
 		"sound": "wood" 
 	},
-	"inverted_jungle_chair":{
+	"stripped_jungle_chair":{
 		"sound": "wood" 
 	},
 	"mangrove_chair":{
 		"sound": "wood" 
 	},
-	"inverted_mangrove_chair":{
+	"stripped_mangrove_chair":{
 		"sound": "wood" 
 	},
 	"oak_chair":{
 		"sound": "wood" 
 	},
-	"inverted_oak_chair":{
+	"stripped_oak_chair":{
 		"sound": "wood" 
 	},
 	"spruce_chair":{
 		"sound": "wood" 
 	},
-	"inverted_spruce_chair":{
+	"stripped_spruce_chair":{
 		"sound": "wood" 
 	},
 	"crimson_stem_chair":{
 		"sound": "wood" 
 	},
-	"inverted_crimson_stem_chair":{
+	"stripped_crimson_stem_chair":{
 		"sound": "wood" 
 	},
 	"warped_stem_chair":{
 		"sound": "wood" 
 	},
-	"inverted_warped_stem_chair":{
+	"stripped_warped_stem_chair":{
 		"sound": "wood" 
 	},
 	"acacia_kitchen_drawer":{

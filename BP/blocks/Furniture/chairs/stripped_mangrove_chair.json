@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:inverted_crimson_stem_chair",
+            "identifier": "coe:stripped_mangrove_chair",
             "menu_category": {
                 "category": "construction"
             },
@@ -56,10 +56,10 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "inverted_crimson_stem_chair"
+                    "texture": "stripped_mangrove_chair"
                 }
             },
-            "minecraft:display_name": "Inverted Crimsion Stem Chair",
+            "minecraft:display_name": "Stripped Mangrove Chair",
             "minecraft:collision_box" : {
 				"origin": [
 					-6,

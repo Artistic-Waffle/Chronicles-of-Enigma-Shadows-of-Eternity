@@ -2,7 +2,7 @@
     "format_version": "1.20.0",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:inverted_cherry_wood_chair",
+            "identifier": "coe:stripped_crimson_stem_chair",
             "menu_category": {
                 "category": "construction"
             },
@@ -56,10 +56,10 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "inverted_cherry_wood_chair"
+                    "texture": "stripped_crimson_stem_chair"
                 }
             },
-            "minecraft:display_name": "Inverted Cherry Chair",
+            "minecraft:display_name": "Stripped Crimsion Stem Chair",
             "minecraft:collision_box" : {
 				"origin": [
 					-6,
