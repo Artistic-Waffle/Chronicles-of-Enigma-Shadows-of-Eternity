@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.0",
+	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "coe:acacia_kitchen_drawer",
@@ -16,28 +16,28 @@
 		},
 		"permutations": [
             {
-                "condition": "q.block_property('minecraft:cardinal_direction') == 0",
+                "condition": "q.block_state('minecraft:cardinal_direction') == 0",
                 
                 "components": {
                     "minecraft:transformation": {"rotation": [0, 180, 0]}
                 }
             },
             {
-                "condition": "q.block_property('minecraft:cardinal_direction') == 1",
+                "condition": "q.block_state('minecraft:cardinal_direction') == 1",
                 
                 "components": {
                     "minecraft:transformation": {"rotation": [0, 90, 0]}
                 }
             },
             {
-                "condition": "q.block_property('minecraft:cardinal_direction') == 2",
+                "condition": "q.block_state('minecraft:cardinal_direction') == 2",
                 
                 "components": {
                     "minecraft:transformation": {"rotation": [0, 0, 0]}
                 }
             },
             {
-                "condition": "q.block_property('minecraft:cardinal_direction') == 3",
+                "condition": "q.block_state('minecraft:cardinal_direction') == 3",
                 
                 "components": {
                     "minecraft:transformation": {"rotation": [0, -90, 0]}
