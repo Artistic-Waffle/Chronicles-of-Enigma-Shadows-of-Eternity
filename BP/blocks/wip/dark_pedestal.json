@@ -10,12 +10,12 @@
         
         "components": {
             "minecraft:collision_box": {
-                "origin": [-8,0,-8],
-				"size": [16,16,16]
+                "origin": [-6,0,-6],
+				"size": [12,16,12]
             },
             "minecraft:selection_box":{
-                "origin": [-8,0,-8],
-				"size": [16,16,16]
+                "origin": [-6,0,-6],
+				"size": [12,16,12]
             },
             "minecraft:geometry":{
                 "identifier": "geometry.dark_pedestal"

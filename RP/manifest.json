@@ -2,26 +2,26 @@
 	"format_version": 2,
 	"metadata": {
 		"authors": [
-			"Artistic_Waffle"
+			"Professor Waffles"
 		],
 		"generated_with": {
 			"bridge": [
-				"2.6.0"
+				"2.7.6"
 			],
 			"dash": [
-				"0.10.8"
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
 			]
 		}
 	},
 	"header": {
-		"name": "Chronicles of Enigma Shadows of Eternity",
-		"description": "In \"Chronicles of Enigma: Shadows of Eternity,\" embark on a perilous quest through enchanted realms as a chosen hero, harnessing the forces of light and darkness to restore balance, confront mythical creatures, and unravel the enigmatic secrets that shape the destiny of Eternia.",
+		"name": "Chronicles of Eldria",
+		"description": "In a realm beyond the boundaries of Minecraft lies Aetheria, a magical world steeped in ancient mysteries and hidden powers. Aetheria was once a land of prosperity and harmony until a powerful force, known as the Void Eclipse, descended upon it, shrouding the realm in darkness.",
 		"min_engine_version": [
 			1,
-			19,
-			60
+			20,
+			40
 		],
-		"uuid": "e118b8f1-0d8c-47ff-a108-fd2b672ad9e6",
+		"uuid": "58448da7-e5a2-47b7-b105-07208954c1c6",
 		"version": [
 			1,
 			0,
@@ -31,7 +31,7 @@
 	"modules": [
 		{
 			"type": "resources",
-			"uuid": "a8a26146-6a3d-4cce-88e3-c21736c0229c",
+			"uuid": "641e84cb-b48a-4c41-81a7-f6a48f68ebda",
 			"version": [
 				1,
 				0,
@@ -41,7 +41,7 @@
 	],
 	"dependencies": [
 		{
-			"uuid": "ec6994f8-54cf-474d-8029-7a1defe35011",
+			"uuid": "1dc0497a-32ba-4a51-8451-0a970c18f605",
 			"version": [
 				1,
 				0,

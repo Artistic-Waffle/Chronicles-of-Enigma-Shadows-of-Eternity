@@ -2,7 +2,7 @@
     "format_version": "1.20.10",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:wooden_box",
+            "identifier": "coe:window_3x3",
             "menu_category": {
                 "category": "construction"
             },
@@ -41,27 +41,26 @@
               }
             ],
         
-        
         "components": {
             "minecraft:collision_box": {
-                "origin": [-8,0,-8],
-				"size": [16,12,16]
+                "origin": [-8,0,-1],
+                "size": [16,16,2]
             },
             "minecraft:selection_box":{
-                "origin": [-8,0,-8],
-				"size": [16,12,16]
+                "origin": [-8,0,-1],
+                "size": [16,16,2]
             },
             "minecraft:geometry":{
-                "identifier": "geometry.wooden_box"
+                "identifier": "geometry.window_3x3"
                 
             },
             "minecraft:material_instances": {
                 "*":{
-                    "texture": "wooden_box",
+                    "texture": "window_3x3",
                     "render_method": "alpha_test"
                 }
             },
-            "minecraft:display_name": "Wooden Box"
+            "minecraft:display_name": "Window 3x3"
         }
         
     }

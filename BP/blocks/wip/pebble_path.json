@@ -5,17 +5,51 @@
             "identifier": "coe:pebble_path",
             "menu_category": {
                 "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [ "minecraft:cardinal_direction"],
+                    "y_rotation_offset": 180
+                }
             }
         },
+            "permutations": [
+              
+              {
+                "condition": "q.block_property('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                  "minecraft:transformation": { "rotation": [0, 0, 0] }
+                }
+              },
+              {
+                "condition": "q.block_property('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                  "minecraft:transformation": { "rotation": [0, 90, 0] }
+                }
+              },
+              {
+                "condition": "q.block_property('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                  "minecraft:transformation": { "rotation": [0, 180, 0] }
+                }
+              },
+              {
+                "condition": "q.block_property('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                  "minecraft:transformation": { "rotation": [0, -90, 0] }
+                }
+              }
+            ],
+       
         
         "components": {
             "minecraft:collision_box": {
                 "origin": [-8,0,-8],
-				"size": [16,16,16]
+				"size": [16,1,16]
             },
             "minecraft:selection_box":{
                 "origin": [-8,0,-8],
-				"size": [16,16,16]
+				"size": [16,1,16]
             },
             "minecraft:geometry":{
                 "identifier": "geometry.pebble_path"
