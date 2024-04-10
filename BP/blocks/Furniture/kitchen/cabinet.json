@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.40",
+	"format_version": "1.20.70",
 	"minecraft:block": {
 		"description": {
 			"identifier": "coe:acacia_cabinet",
@@ -27,3 +27,5 @@
 		}
 	}
 }
+
+//delete

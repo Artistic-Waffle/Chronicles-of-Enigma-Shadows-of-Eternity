@@ -1,10 +1,18 @@
 {
-    "format_version": "1.20.10",
+    "format_version": "1.20.70",
     "minecraft:block": {
         "description": {
             "identifier": "coe:acacia_table",
             "menu_category": {
                 "category": "construction"
+            },
+
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [ "minecraft:cardinal_direction"],
+                    "y_rotation_offset": 180
+                }
+            
             }
         },
         
@@ -28,6 +36,7 @@
                 }
                 
             },
+            
             "minecraft:material_instances": {
                 "*":{
                     "texture": "acacia_table",
@@ -35,7 +44,6 @@
                 }
             },
             "minecraft:display_name": "Acacia Table"
-        }
-        
+        }   
     }
 }
