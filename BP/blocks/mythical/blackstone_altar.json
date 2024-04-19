@@ -8,14 +8,24 @@
 			}
 		},
 		"components": {
-			"minecraft:unit_cube": {},
+			"minecraft:collision_box": {
+				"origin": [-8,0,-8],
+				"size": [16,16,16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8,0,-8],
+				"size": [16,16,16]
+			},
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "blackstone_altar",
 					"render_method": "opaque"
 				}
 			},
-			"minecraft:display_name": "Blackstone Altar"
+			"minecraft:display_name": "Blackstone Altar",
+			"minecraft:geometry":{
+                "identifier": "geometry.block"
+            }
 		}
 	}
 }

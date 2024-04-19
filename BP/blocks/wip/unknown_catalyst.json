@@ -24,7 +24,9 @@
                 }
             },
             "minecraft:display_name": "Unknown Catalyst",
-            "minecraft:unit_cube": {}
+            "minecraft:geometry":{
+                "identifier": "geometry.block"
+            }
         }
         
     }

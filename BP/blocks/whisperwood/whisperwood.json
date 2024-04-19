@@ -3,12 +3,33 @@
     "minecraft:block": {
         "description": {
             "identifier": "coe:whisperwood",
-            "is_experimental": false,
             "menu_category": {
                 "category": "nature"
+            },
+            "states": {
+                "coe:log_axis":[0,1,2]
             }
         },
-        "permutations": [],
+        "permutations": [
+            {
+                "condition": "q.block_state('coe:log_axis')== 0",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 0, 0] }
+                  }
+            },
+            {
+                "condition": "q.block_state('coe:log_axis')== 1",
+                "components": {
+                    "minecraft:transformation": { "rotation": [90, 0, 0] }
+                  }
+            },
+            {
+                "condition": "q.block_state('coe:log_axis')== 2",
+                "components": {
+                    "minecraft:transformation": { "rotation": [0, 0, 90] }
+                  }
+            }
+        ],
         "components": {
             "minecraft:collision_box": {
 				"origin": [-8,0,-8],
@@ -30,8 +51,20 @@
                 "down":{
                     "texture": "whisperwood_top"
                 }
+            },
+            "minecraft:geometry":{
+                "identifier": "geometry.block"
+            },
+            "minecraft:on_player_placing": {
+                "event": "coe:set_axis"
             }
         },
-        "events": {}
+        "events": {
+            "coe:set_axis": {
+               "set_block_state": {
+                "coe:log_axis" : "Math.floor(q.block_face / 2)"
+               }
+            }
+        }                               
     }
 }

@@ -27,7 +27,9 @@
                     "texture": "whispershade_grass_top"
                 }
             },
-            "minecraft:unit_cube": {}
+            "minecraft:geometry":{
+                "identifier": "geometry.block"
+            }
         }
     }
 }

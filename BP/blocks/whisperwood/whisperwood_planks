@@ -24,7 +24,9 @@
                     "texture": "whisperwood_planks"      
                 }
             },
-            "minecraft:unit_cube": {}
+            "minecraft:geometry":{
+                "identifier": "geometry.block"
+            }
         }
     }
 }

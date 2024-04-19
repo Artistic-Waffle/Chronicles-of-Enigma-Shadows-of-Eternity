@@ -25,7 +25,10 @@
                     "render_method": "alpha_test"     
                 }
             },
-            "minecraft:unit_cube": {}
+            "minecraft:geometry":{
+                "identifier": "geometry.block"
+            }
+            
         },
         "events": {}
     }

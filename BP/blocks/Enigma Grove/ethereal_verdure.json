@@ -8,7 +8,7 @@
             }
         },
         "components": {
-            "minecraft:unit_cube": {},
+            
             "minecraft:material_instances": {
                 "*": {
                     "texture": "ethereal_verdure_side",
@@ -27,7 +27,10 @@
 				"origin": [-8,0,-8],
 				"size": [16,16,16]
 			},
-            "minecraft:display_name": "Ethereal Verdure"
+            "minecraft:display_name": "Ethereal Verdure",
+            "minecraft:geometry":{
+                "identifier": "geometry.block"
+            }
         }
     }
 }
