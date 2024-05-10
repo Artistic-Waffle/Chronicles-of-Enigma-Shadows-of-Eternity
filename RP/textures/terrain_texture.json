@@ -218,7 +218,9 @@
 		},
 		"window_2x2":{
 			"textures":"textures/blocks/decor/windows/window_2x2"
+		},
+		"window":{
+			"textures":"textures/blocks/decor/windows/window"
 		}
-		
 	}
 }

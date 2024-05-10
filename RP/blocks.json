@@ -97,5 +97,17 @@
 	},
 	"blackstone_altar":{
 		"sound": "stone"
+	},
+	"window":{
+		"sound": "glass"
+	},
+	"window_2x2":{
+		"sound": "glass"
+	},
+	"window_3x3":{
+		"sound": "glass"
+	},
+	"window_diagonal":{
+		"sound": "glass"
 	}
 }

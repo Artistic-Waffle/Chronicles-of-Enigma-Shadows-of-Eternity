@@ -70,7 +70,7 @@
 			"force_ride":{
 				"run_command":{
 					"command":[
-						"ride @p start_riding @e[type=coe:chair_sit,c=1] teleport_rider"
+						"execute as @e[type=player] run ride @s start_riding @e[type=coe:chair_sit,c=1] teleport_rider"
 					]
 				}
 			},
