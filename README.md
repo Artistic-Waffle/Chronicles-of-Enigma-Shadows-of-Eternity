@@ -1,5 +1,7 @@
 # Chronicles of Enigma Shadows of Eternity
 ------------------------------------------
+
+DO NOT COPY OR REUSE CODE WITHOUT OWNERS CONSENT
  
 Updates :
   - Restarted Resouce and Behavior pack
