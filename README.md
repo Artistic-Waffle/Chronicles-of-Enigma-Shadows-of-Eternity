@@ -3,7 +3,7 @@
 
  
 Updates :
-  - Restarted Resouce and Behavior pack
+  - Update Behavior pack to 1.21.10 compaitbilty
   - Item & Blocks textures working ✔
   - 
 
