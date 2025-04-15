@@ -1,8 +1,8 @@
 {
-    "format_version": "1.20.70",
+    "format_version": "1.21.1",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:stripeed_spruce_table",
+            "identifier": "td:stripeed_spruce_table",
             "menu_category": {
                 "category": "construction"
             }

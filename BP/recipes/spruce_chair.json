@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "coe:spruce_chair"
+            "identifier": "td:spruce_chair"
         },
         "tags": [
             "crafting_table"
@@ -21,7 +21,7 @@
             }
         },
         "result": {
-            "item": "coe:spruce_chair",
+            "item": "td:spruce_chair",
             "count": 1
         }
     }

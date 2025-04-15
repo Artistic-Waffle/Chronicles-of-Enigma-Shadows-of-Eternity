@@ -1,30 +1,30 @@
 {
-    "format_version": "1.20.70",
+    "format_version": "1.21.1",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:whisperwood",
+            "identifier": "td:whisperwood",
             "menu_category": {
                 "category": "nature"
             },
             "states": {
-                "coe:log_axis":[0,1,2]
+                "td:log_axis":[0,1,2]
             }
         },
         "permutations": [
             {
-                "condition": "q.block_state('coe:log_axis')== 0",
+                "condition": "q.block_state('td:log_axis')== 0",
                 "components": {
                     "minecraft:transformation": { "rotation": [0, 0, 0] }
                   }
             },
             {
-                "condition": "q.block_state('coe:log_axis')== 1",
+                "condition": "q.block_state('td:log_axis')== 1",
                 "components": {
                     "minecraft:transformation": { "rotation": [90, 0, 0] }
                   }
             },
             {
-                "condition": "q.block_state('coe:log_axis')== 2",
+                "condition": "q.block_state('td:log_axis')== 2",
                 "components": {
                     "minecraft:transformation": { "rotation": [0, 0, 90] }
                   }
@@ -54,17 +54,7 @@
             },
             "minecraft:geometry":{
                 "identifier": "geometry.block"
-            },
-            "minecraft:on_player_placing": {
-                "event": "coe:set_axis"
             }
-        },
-        "events": {
-            "coe:set_axis": {
-               "set_block_state": {
-                "coe:log_axis" : "Math.floor(q.block_face / 2)"
-               }
-            }
-        }                               
+        }
     }
 }

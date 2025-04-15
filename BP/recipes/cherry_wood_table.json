@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "coe:cherry_wood_table"
+            "identifier": "td:cherry_wood_table"
         },
         "tags": [
             "crafting_table"
@@ -21,7 +21,7 @@
             }
         },
         "result": {
-            "item": "coe:cherry_wood_table",
+            "item": "td:cherry_wood_table",
             "count": 1
         }
     }

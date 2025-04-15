@@ -1,8 +1,8 @@
 {
-    "format_version": "1.20.70",
+    "format_version": "1.21.1",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:wooden_box",
+            "identifier": "td:wooden_box",
             "menu_category": {
                 "category": "construction"
             },

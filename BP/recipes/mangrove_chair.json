@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "coe:mangrove_chair"
+            "identifier": "td:mangrove_chair"
         },
         "tags": [
             "crafting_table"
@@ -21,7 +21,7 @@
             }
         },
         "result": {
-            "item": "coe:mangrove_chair",
+            "item": "td:mangrove_chair",
             "count": 1
         }
     }

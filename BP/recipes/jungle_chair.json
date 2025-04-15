@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "coe:jungle_chair"
+            "identifier": "td:jungle_chair"
         },
         "tags": [
             "crafting_table"
@@ -21,7 +21,7 @@
             }
         },
         "result": {
-            "item": "coe:jungle_chair",
+            "item": "td:jungle_chair",
             "count": 1
         }
     }

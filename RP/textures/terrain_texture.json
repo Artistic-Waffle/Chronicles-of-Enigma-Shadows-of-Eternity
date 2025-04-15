@@ -5,22 +5,22 @@
 	"texture_name": "atlas.terrain",
 	"texture_data": {
 		"whisperwood" : {
-			"textures": "textures/blocks/whisperwood"
+			"textures": "textures/blocks/biomes/whisper/whisperwood"
 		},
 		"whisperwood_top" : {
-			"textures" : "textures/blocks/whisperwood_top"
+			"textures" : "textures/blocks/biomes/whisper/whisperwood_top"
 		},
 		"whisperwood_planks":{
-			"textures": "textures/blocks/whisperwood_planks"
+			"textures": "textures/blocks/biomes/whisper/whisperwood_planks"
 		},
 		"whisperwood_leaves":{
-			"textures": "textures/blocks/whisperwood_leaves"
+			"textures": "textures/blocks/biomes/whisper/whisperwood_leaves"
 		},
 		"whispershade_grass_side":{
-			"textures": "textures/blocks/whispershade_grass_side"
+			"textures": "textures/blocks/biomes/whisper/whispershade_grass_side"
 		},
 		"whispershade_grass_top":{
-			"textures": "textures/blocks/whispershade_grass_top"
+			"textures": "textures/blocks/biomes/whisper/whispershade_grass_top"
 		},
 		"cherry_chair_fancy":{
 			"textures": "textures/blocks/decor/chairs/cherry_chair_fancy"
@@ -101,10 +101,10 @@
 			"textures": "textures/blocks/blackstone_altar"
 		},
 		"ethereal_verdure_side":{
-			"textures": "textures/blocks/enigma_grove/ethereal_verdure_side"
+			"textures": "textures/blocks/biomes/enigma_grove/ethereal_verdure_side"
 		},
 		"ethereal_verdure_top":{
-			"textures": "textures/blocks/enigma_grove/ethereal_verdure_top"
+			"textures": "textures/blocks/biomes/enigma_grove/ethereal_verdure_top"
 		},
 		"oak_table":{
 			"textures": "textures/blocks/decor/tables/oak_table"
@@ -221,6 +221,30 @@
 		},
 		"window":{
 			"textures":"textures/blocks/decor/windows/window"
+		},
+		"twilight_gloom_side":{
+			"textures": "textures/blocks/biomes/twilight/twilight_gloom_side"
+		},
+		"twilight_gloom":{
+			"textures": "textures/blocks/biomes/twilight/twilight_gloom"
+		},
+		"solarite_cluster":{
+			"textures": "textures/blocks/biomes/enigma_grove/solarite_cluster"
+		},
+		"moonbeam_cluster":{
+			"textures": "textures/blocks/moonbeam_cluster"
+		},
+		"dawnite_cluster":{
+			"textures": "textures/blocks/dawnite_cluster"
+		},
+		"spectralite_cluster":{
+			"textures": "textures/blocks/spectralite_cluster"
+		},
+		"nebulite_cluster":{
+			"textures": "textures/blocks/nebulite_cluster"
+		},
+		"spruce_chair_large":{
+			"textures" : "textures/blocks/wip/spruce_chair_large"
 		}
 	}
 }

@@ -1,8 +1,8 @@
 {
-    "format_version": "1.20.70",
+    "format_version": "1.21.1",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:witch_cauldron",
+            "identifier": "td:witch_cauldron",
             "menu_category": {
                 "category": "construction"
             }

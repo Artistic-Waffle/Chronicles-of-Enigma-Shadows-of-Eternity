@@ -1,0 +1,32 @@
+{
+    "format_version": "1.21.1",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:dawnite_cluster",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "dawnite_cluster",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:collision_box": {
+				"origin": [-5,0,-5],
+				"size": [10,7,10]
+			},
+			"minecraft:selection_box": {
+				"origin": [-5,0,-5],
+				"size": [10,7,10]
+			},
+            "minecraft:display_name": "Dawnite Cluster",
+            "minecraft:geometry":{
+                "identifier": "geometry.crystal_cluster"
+            }
+        }
+    }
+}

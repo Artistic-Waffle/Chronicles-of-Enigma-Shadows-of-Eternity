@@ -3,23 +3,15 @@
 	"metadata": {
 		"authors": [
 			"Professor Waffles"
-		],
-		"generated_with": {
-			"bridge": [
-				"2.7.6"
-			],
-			"dash": [
-				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
-			]
-		}
+		]
 	},
 	"header": {
-		"name": "Chronicles of Aetheria",
-		"description": "In a realm beyond the boundaries of Minecraft lies Aetheria, a magical world steeped in ancient mysteries and hidden powers. Aetheria was once a land of prosperity and harmony until a powerful force, known as the Void Eclipse, descended upon it, shrouding the realm in darkness.",
+		"name": " Twilight Descent: Echoes of Ascension",
+		"description": "ALPHA",
 		"min_engine_version": [
 			1,
 			20,
-			40
+			80
 		],
 		"uuid": "1dc0497a-32ba-4a51-8451-0a970c18f605",
 		"version": [
@@ -61,7 +53,7 @@
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.0.0-beta"
+			"version": "1.11.0"
 		},
 		{
 			"module_name": "@minecraft/server-gametest",
@@ -69,7 +61,7 @@
 		},
 		{
 			"module_name": "@minecraft/server-ui",
-			"version": "1.0.0-beta"
+			"version": "1.2.0-beta"
 		},
 		{
 			"module_name": "@minecraft/server-admin",
@@ -78,6 +70,10 @@
 		{
 			"module_name": "@minecraft/server-net",
 			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/common",
+			"version": "1.1.0"
 		}
 	]
 }

@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "coe:birch_chair"
+            "identifier": "td:birch_chair"
         },
         "tags": [
             "crafting_table"
@@ -21,7 +21,7 @@
             }
         },
         "result": {
-            "item": "coe:birch_chair",
+            "item": "td:birch_chair",
             "count": 1
         }
     }

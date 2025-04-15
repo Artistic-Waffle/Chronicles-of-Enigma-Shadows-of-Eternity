@@ -1,8 +1,8 @@
 {
-    "format_version": "1.20.70",
+    "format_version": "1.21.1",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:water_lilly_pad",
+            "identifier": "td:water_lilly_pad",
             "menu_category": {
                 "category": "construction"
             }

@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "coe:acacia_chair"
+            "identifier": "td:acacia_chair"
         },
         "tags": [
             "crafting_table"
@@ -21,7 +21,7 @@
             }
         },
         "result": {
-            "item": "coe:acacia_chair",
+            "item": "td:acacia_chair",
             "count": 1
         }
     }

@@ -1,8 +1,8 @@
 {
-    "format_version": "1.20.70",
+    "format_version": "1.21.1",
     "minecraft:entity": {
         "description": {
-            "identifier": "coe:chair_sit",
+            "identifier": "td:chair_sit",
             "is_spawnable": false,
             "is_summonable": true
         },

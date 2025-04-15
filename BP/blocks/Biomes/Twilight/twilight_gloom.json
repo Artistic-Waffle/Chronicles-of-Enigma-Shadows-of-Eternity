@@ -1,8 +1,8 @@
 {
-    "format_version": "1.20.70",
+    "format_version": "1.21.1",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:ethereal_verdure",
+            "identifier": "td:twilight_gloom",
             "menu_category": {
                 "category": "nature"
             }
@@ -11,11 +11,11 @@
             
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "ethereal_verdure_side",
+                    "texture": "twilight_gloom_side",
                     "render_method": "opaque"
                 },
                 "up":{
-                    "texture": "ethereal_verdure_top",
+                    "texture": "twilight_gloom",
                     "render_method": "opaque"
                 }
             },
@@ -27,7 +27,7 @@
 				"origin": [-8,0,-8],
 				"size": [16,16,16]
 			},
-            "minecraft:display_name": "Ethereal Verdure",
+            "minecraft:display_name": "Twilight Gloom",
             "minecraft:geometry":{
                 "identifier": "geometry.block"
             }

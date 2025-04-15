@@ -1,8 +1,8 @@
 {
-	"format_version": "1.20.70",
+	"format_version": "1.21.1",
 	"minecraft:block": {
 		"description": {
-			"identifier": "coe:acacia_kitchen_drawer",
+			"identifier": "td:acacia_kitchen_drawer",
 			"menu_category": {
 				"category": "construction"
 			},
@@ -60,14 +60,8 @@
 				"origin": [-8,0,-8],
 				"size": [16,16,16]
 			},
-			"minecraft:display_name": "Acacia Kitchen Drawer",
-			"minecraft:on_player_placing": {
-				"event": "coe:update"
-			}
-		},
-		"events": {
-			"coe:rotate":{
-			}
+			"minecraft:display_name": "Acacia Kitchen Drawer"
 		}
+		
 	}
 }

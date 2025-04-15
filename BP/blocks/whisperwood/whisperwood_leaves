@@ -1,8 +1,8 @@
 {
-    "format_version": "1.20.70",
+    "format_version": "1.21.1",
     "minecraft:block": {
         "description": {
-            "identifier": "coe:whisperwood_leaves",
+            "identifier": "td:whisperwood_leaves",
             "menu_category": {
                 "category": "nature"
             }
@@ -29,7 +29,6 @@
                 "identifier": "geometry.block"
             }
             
-        },
-        "events": {}
+        }
     }
 }
