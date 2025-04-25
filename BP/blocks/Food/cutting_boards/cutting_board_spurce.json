@@ -1,0 +1,48 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cook:cutting_board_spurce",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:geometry": "geometry.cutting_board",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cook_cutting_board_spurce",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:aim_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					1,
+					14
+				]
+			},
+			"minecraft:block_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					1,
+					14
+				]
+			},
+			"minecraft:destroy_time": 0.3,
+			"minecraft:creative_category": {
+				"category": "items",
+				"group": "itemGroup.name.cutting_boards"
+			},
+			"minecraft:block_light_filter": 0
+		}
+	}
+}

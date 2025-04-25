@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "fantasy:dark_staff",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/wands/wand"
+			},
+			"geometry": {
+				"default": "geometry.wand"
+			},
+			"animations": {
+				"first_person": "animation.wand.firstperson"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"first_person": "c.is_first_person"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.default",
+				"controller.render.item_default"
+			]
+		}
+	}
+}

@@ -1,0 +1,14 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fc:tungsten_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 20,
+			"minecraft:explosion_resistance": 18
+		},
+		"events": {}
+	}
+}

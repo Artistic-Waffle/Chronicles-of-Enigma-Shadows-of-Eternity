@@ -1,0 +1,17 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "cook:bread_slice",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "cook_bread_slice"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.miscFood"
+			}
+		}
+	}
+}

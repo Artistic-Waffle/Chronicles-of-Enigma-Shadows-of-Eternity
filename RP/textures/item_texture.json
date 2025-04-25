@@ -1,5 +1,99 @@
 {
-	"resource_pack_name": "Chronicles of Enigma Shadows of Eternity",
+	"resource_pack_name": "twilight descent",
 	"texture_name": "atlas.items",
-	"texture_data": {}
+	"texture_data": {
+		"knife": {
+			"textures": "textures/items/knife"
+		},
+		"bread_slice": {
+			"textures": "textures/items/bread_slice"
+		},
+		"fantasy_dark_staff": {
+			"textures": "textures/items/dark_staff"
+		},
+		"un_pebble": {
+			"textures": "textures/items/pebble"
+		},
+		"un_wisteria_sapling_placer": {
+			"textures": "textures/items/wisteria_sapling"
+		},
+		"adamantite_ingot": {
+			"textures": "textures/items/adamantite_ingot"
+		},
+		"black_steel_ingot": {
+			"textures": "textures/items/black_steel_ingot"
+		},
+		"brass_ingot": {
+			"textures": "textures/items/brass_ingot"
+		},
+		"cobalt_ingot": {
+			"textures": "textures/items/cobalt_ingot"
+		},
+		"electrum_ingot": {
+			"textures": "textures/items/electrum_ingot"
+		},
+		"lead_ingot": {
+			"textures": "textures/items/lead_ingot"
+		},
+		"mithril_ingot": {
+			"textures": "textures/items/mithril_ingot"
+		},
+		"nickel_ingot": {
+			"textures": "textures/items/nickel_ingot"
+		},
+		"platinum_ingot": {
+			"textures": "textures/items/platinum_ingot"
+		},
+		"silver_ingot": {
+			"textures": "textures/items/silver_ingot"
+		},
+		"steel_ingot": {
+			"textures": "textures/items/steel_ingot"
+		},
+		"tin_ingot": {
+			"textures": "textures/items/tin_ingot"
+		},
+		"titanium_ingot": {
+			"textures": "textures/items/titanium_ingot"
+		},
+		"tungsten_ingot": {
+			"textures": "textures/items/tungsten_ingot"
+		},
+		"uranium_ingot": {
+			"textures": "textures/items/uranium_ingot"
+		},
+		"zinc_ingot": {
+			"textures": "textures/items/zinc_ingot"
+		},
+		"aluminum_ingot": {
+			"textures": "textures/items/aluminum_ingot"
+		},
+		"bronze_ingot": {
+			"textures": "textures/items/bronze_ingot"
+		},
+		"aluminum_plate": {
+			"textures": "textures/items/aluminium_plate"
+		},
+		"brass_plate": {
+			"textures": "textures/items/brass_plate"
+		},
+		"bronze_plate": {
+			"textures": "textures/items/bronze_plate"
+		},
+		"copper_plate": {
+			"textures": "textures/items/copper_plate"
+		},
+		"lead_plate": {
+			"textures": "textures/items/lead_plate"
+		},
+		"tin_plate": {
+			"textures": "textures/items/tin_plate"
+		},
+		"tungsten_plate": {
+			"textures": "textures/items/tungsten_plate"
+		},
+		"hammer": {
+			"textures": "textures/items/hammer"
+		}
+	}
 }

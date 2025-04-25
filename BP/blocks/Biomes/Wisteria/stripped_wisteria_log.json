@@ -1,0 +1,84 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fc:stripped_wisteria_log",
+			"properties": {
+				"fc:rotate": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('fc:rotate') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('fc:rotate') == 1",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('fc:rotate') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						-90
+					]
+				}
+			}
+		],
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "un_stripped_wisteria_log",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "un_wisteria_log_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "un_wisteria_log_top",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.log"
+			},
+			"minecraft:on_player_placing": {
+				"event": "fc:update_rotation"
+			},
+			"minecraft:flammable": {
+				"burn_odds": 50,
+				"flame_odds": 25
+			},
+			"minecraft:loot": "loot_tables/stripped_wisteria_log.json",
+			"minecraft:destroy_time": 1.0
+		},
+		"events": {
+			"fc:update_rotation": {
+				"set_block_property": {
+					"fc:rotate": "math.floor(query.cardinal_facing/2)"
+				}
+			}
+		}
+	}
+}

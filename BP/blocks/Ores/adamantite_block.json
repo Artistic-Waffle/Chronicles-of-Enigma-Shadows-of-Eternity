@@ -1,0 +1,14 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fc:adamantite_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 26,
+			"minecraft:explosion_resistance": 20
+		},
+		"events": {}
+	}
+}

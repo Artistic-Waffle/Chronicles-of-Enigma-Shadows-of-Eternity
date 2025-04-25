@@ -1,0 +1,21 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "fc:wisteria_planks"
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "un_wisteria_planks",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:creative_category": {
+				"category": "construction",
+				"group": "itemGroup.name.planks"
+			}
+		}
+	}
+}

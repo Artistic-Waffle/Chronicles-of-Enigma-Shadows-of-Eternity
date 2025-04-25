@@ -1,0 +1,498 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cook:cutting_board",
+			"is_experimental": false,
+			"properties": {
+				"cook:bread": [
+					0, // cutting board
+					1, //bread
+					2, // knife
+					3, //chicken
+					4, //beef
+					5, //pork
+					6, //mutton
+					7, //apple
+					8, //rabbit
+					9, //potato
+					10, //carrot
+					11, //beetroot
+					12, // cod
+					13, // salmon
+					14 // tropical
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('cook:bread') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_bread",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_bread"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_knife",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_knife"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_chicken",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_chicken"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 4",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_beef",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_beef"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 5",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_pork",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_pork"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 6",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_mutton",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_mutton"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 7",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_apple",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_apple"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 8",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_rabbit",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_rabbit"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 9",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_potato",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_potato"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 10",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_carrot",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_carrot"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 11",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_beetroot",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_beetroot"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 12",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_cod",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_cod"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 13",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_salmon",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_salmon"
+				}
+			},
+			{
+				"condition": "query.block_property('cook:bread') == 14",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "cook_cutting_board_tropical",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:geometry": "geometry.cutting_board_tropical"
+				}
+			}
+		],
+		"components": {
+			"minecraft:geometry": "geometry.cutting_board",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cook_cutting_board",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:aim_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					1,
+					14
+				]
+			},
+			"minecraft:block_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					1,
+					14
+				]
+			},
+			"minecraft:destroy_time": 0.8,
+			"minecraft:creative_category": {
+				"category": "items"
+			},
+			"minecraft:block_light_filter": 0,
+			"minecraft:on_interact": {
+				"event": "cook:ingredient"
+			},
+			"bridge:rotate_y_on_place": {
+				"flip": true
+			}
+		},
+		"events": {
+			"cook:ingredient": {
+				"sequence": [
+					{
+						"sequence": [
+							{
+								"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:bread') && query.block_property('cook:bread') == 0",
+								"set_block_property": {
+									"cook:bread": 1
+								},
+								"decrement_stack": {}
+							},
+							{
+								"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 1",
+								"set_block_property": {
+									"cook:bread": 0
+								},
+								"spawn_loot": {
+									"table": "loot_tables/bread_slices.json"
+								}
+							},
+							{
+								"condition": "query.is_sneaking, && query.block_property('cook:bread') == 1",
+								"set_block_property": {
+									"cook:bread": 0
+								},
+								"spawn_loot": {
+									"table": "loot_tables/bread.json"
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 2
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 2 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					//pls change how this work later on
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:chicken') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 3
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 3 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:beef') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 4
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 4 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:porkchop') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 5
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 5 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:mutton') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 6
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 6 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:apple') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 7
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 7 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:rabbit') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 8
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 8 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:potato') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 9
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 9 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:carrot') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 10
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 10 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:beetroot') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 11
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 11 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:cod') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 12
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 12 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:salmon') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 13
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 13 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": " query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:tropical_fish') && query.block_property('cook:bread') == 0 ",
+								"set_block_property": {
+									"cook:bread": 14
+								}
+							},
+							{
+								"condition": " !query.is_item_name_any('slot.weapon.mainhand', 0, 'cook:knife') && query.block_property('cook:bread') == 14 ",
+								"set_block_property": {
+									"cook:bread": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}
