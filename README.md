@@ -1,9 +1,9 @@
-# Chronicles of Enigma Shadows of Eternity
+# Twlight Descent
 ------------------------------------------
 
  
 Updates :
-  - Update Behavior pack to 1.21.10 compaitbilty
+  - Update 1.16.100 -> 1.21.8
   - Item & Blocks textures working ✔
   - 
 
