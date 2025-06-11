@@ -1,22 +1,28 @@
-//bridge-file-version: #2
+
 {
-	"format_version": "1.16.0",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "fc:black_steel_block"
+			"identifier": "td:black_steel_block"
 		},
 		"components": {
-			"minecraft:destroy_time": 32,
-			"minecraft:block_light_absorption": 0,
-			"minecraft:block_light_emission": 0,
-			"minecraft:friction": 1,
-			"minecraft:explosion_resistance": 0.3,
-			"minecraft:breathability": "solid",
-			"minecraft:flammable": {
-				"burn_odds": 50,
-				"flame_odds": 0
-			}
-		},
-		"events": {}
+			"minecraft:geometry": "geometry.block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "black_steel_block",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:display_name": "Black Steel Block"
+		}
+		
 	}
 }

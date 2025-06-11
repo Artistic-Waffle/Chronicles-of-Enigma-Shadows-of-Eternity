@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.1",
+    "format_version": "1.21.8",
     "minecraft:block": {
         "description": {
             "identifier": "td:cherry_chair_fancy",

@@ -1,14 +1,28 @@
-//bridge-file-version: #2
+
 {
-	"format_version": "1.16.0",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "fc:steel_block"
+			"identifier": "td:steel_block"
 		},
 		"components": {
-			"minecraft:destroy_time": 16,
-			"minecraft:explosion_resistance": 20
-		},
-		"events": {}
+			"minecraft:geometry": "geometry.block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "steel_block",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:display_name": "Steel Block"
+		}
+		
 	}
 }

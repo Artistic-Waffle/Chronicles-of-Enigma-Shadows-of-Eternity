@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.1",
+    "format_version": "1.21.8",
     "minecraft:block": {
         "description": {
             "identifier": "td:wine_crate",
@@ -27,7 +27,7 @@
                     "render_method": "alpha_test"
                 }
             },
-            "minecraft:display_name": "Wine_crate"
+            "minecraft:display_name": "Wine Crate"
         }
         
     }

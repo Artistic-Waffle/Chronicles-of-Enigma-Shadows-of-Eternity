@@ -1,21 +1,31 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "fc:wisteria_planks"
+			"identifier": "td:wisteria_planks",
+			"menu_category": {
+				"category": "construction"
+			}
 		},
 		"components": {
-			"minecraft:unit_cube": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.block"
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "un_wisteria_planks",
+					"texture": "wisteria_planks",
 					"render_method": "opaque"
 				}
 			},
-			"minecraft:creative_category": {
-				"category": "construction",
-				"group": "itemGroup.name.planks"
-			}
+			"minecraft:display_name": "Wisteria Planks"
 		}
 	}
 }

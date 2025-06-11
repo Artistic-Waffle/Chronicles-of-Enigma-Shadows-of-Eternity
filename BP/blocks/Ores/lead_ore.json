@@ -1,18 +1,28 @@
-//bridge-file-version: #2
+
 {
-	"format_version": "1.16.0",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "fc:lead_ore"
+			"identifier": "td:lead_ore"
 		},
 		"components": {
-			"minecraft:destroy_time": 3,
-			"minecraft:explosion_resistance": 2,
-			"minecraft:flammable": {
-				"burn_odds": 50,
-				"flame_odds": 0
-			}
-		},
-		"events": {}
+			"minecraft:geometry": "geometry.block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "lead_ore",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:display_name": "Lead Ore"
+		}
+		
 	}
 }

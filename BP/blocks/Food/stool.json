@@ -1,245 +1,29 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "cook:stool",
-			"is_experimental": false,
-			"properties": {
-				"cook:color": [
-					0,
-					1,
-					2,
-					3,
-					4,
-					5,
-					6,
-					7,
-					8
-				]
+			"identifier": "td:stool",
+			"menu_category": {
+				"category": "construction"
 			}
 		},
-		"permutations": [
-			{
-				"condition": "query.block_property('cook:color')== 0",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "cook_stool",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('cook:color')== 1",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "cook_stool_black",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('cook:color')== 2",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "cook_stool_gray",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('cook:color')== 3",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "cook_stool_red",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('cook:color')== 4",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "cook_stool_orange",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('cook:color')== 5",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "cook_stool_yellow",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('cook:color')== 6",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "cook_stool_pink",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('cook:color')== 7",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "cook_stool_purple",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('cook:color')== 8",
-				"components": {
-					"minecraft:material_instances": {
-						"*": {
-							"texture": "cook_stool_mangenta",
-							"render_method": "alpha_test"
-						}
-					}
-				}
-			}
-		],
 		"components": {
 			"minecraft:geometry": "geometry.stool",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "cook_stool",
+					"texture": "stool",
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:pick_collision": {
-				"origin": [
-					-7,
-					0,
-					-7
-				],
-				"size": [
-					14,
-					14,
-					14
-				]
+			"minecraft:collision_box": {
+				"origin": [-7, 0, -7],
+				"size": [14, 14, 14]
 			},
-			"minecraft:entity_collision": {
-				"origin": [
-					-7,
-					0,
-					-7
-				],
-				"size": [
-					14,
-					14,
-					14
-				]
+			"minecraft:selection_box": {
+				"origin": [-7, 0, -7],
+				"size": [14, 14, 14]
 			},
-			"minecraft:creative_category": {
-				"category": "construction"
-			},
-			"minecraft:block_light_absorption": 0,
-			"minecraft:destroy_time": 0.8,
-			"minecraft:on_interact": {
-				"event": "cook:color"
-			}
-		},
-		"events": {
-			"cook:ride": {
-				"run_command": {
-					"command": [
-						"summon cook:stool ~ ~-0.5 ~",
-						"ride @p start_riding @e[type=cook:stool,c=1] teleport_rider"
-					]
-				}
-			},
-			"cook:color": {
-				"sequence": [
-					{
-						"sequence": [
-							{
-								"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:black_dye','minecraft:ink_sac')  && query.block_property('cook:color') == 0",
-								"set_block_property": {
-									"cook:color": 1
-								}
-							},
-							{
-								"condition": "query.has_block_property('cook:color') >= 1  && query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:white_dye','minecraft:bone_meal')",
-								"set_block_property": {
-									"cook:color": 0
-								}
-							},
-							{
-								"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:gray_dye')  && query.block_property('cook:color') == 0",
-								"set_block_property": {
-									"cook:color": 2
-								}
-							},
-							{
-								"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:red_dye')  && query.block_property('cook:color') == 0",
-								"set_block_property": {
-									"cook:color": 3
-								}
-							},
-							{
-								"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:orange_dye')  && query.block_property('cook:color') == 0",
-								"set_block_property": {
-									"cook:color": 4
-								}
-							},
-							{
-								"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:yellow_dye')  && query.block_property('cook:color') == 0",
-								"set_block_property": {
-									"cook:color": 5
-								}
-							},
-							{
-								"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:pink_dye')  && query.block_property('cook:color') == 0",
-								"set_block_property": {
-									"cook:color": 6
-								}
-							},
-							{
-								"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:purple_dye')  && query.block_property('cook:color') == 0",
-								"set_block_property": {
-									"cook:color": 7
-								}
-							},
-							{
-								"condition": "query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:magenta_dye')  && query.block_property('cook:color') == 0",
-								"set_block_property": {
-									"cook:color": 8
-								}
-							}
-						]
-					},
-					// change to tags when it working again
-					{
-						"sequence": [
-							{
-								"condition": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:white_dye','minecraft:bone_meal','minecraft:black_dye','minecraft:ink_sac','minecraft:gray_dye', 'minecraft:red_dye','minecraft:orange_dye','minecraft:yellow_dye','minecraft:pink_dye','minecraft:purple_dye','minecraft:magenta_dye')",
-								"trigger": "cook:ride"
-							}
-						]
-					}
-				]
-			}
+			"minecraft:display_name": "Stool"
 		}
 	}
 }

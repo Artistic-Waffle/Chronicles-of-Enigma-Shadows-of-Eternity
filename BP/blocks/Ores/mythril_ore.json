@@ -1,14 +1,28 @@
-//bridge-file-version: #3
+
 {
-	"format_version": "1.16.0",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "fc:mythril_ore"
+			"identifier": "td:mythril_ore"
 		},
 		"components": {
-			"minecraft:destroy_time": 12,
-			"minecraft:explosion_resistance": 9
-		},
-		"events": {}
+			"minecraft:geometry": "geometry.block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "mythril_ore",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:display_name": "Mythril Ore"
+		}
+		
 	}
 }

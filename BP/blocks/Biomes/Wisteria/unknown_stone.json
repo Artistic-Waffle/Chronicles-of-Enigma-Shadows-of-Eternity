@@ -1,20 +1,28 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "fc:unknown_stone"
+			"identifier": "td:unknown_stone"
 		},
 		"components": {
-			"minecraft:unit_cube": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.block"
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "un_unknown_stone",
+					"texture": "unknown_stone",
 					"render_method": "opaque"
 				}
 			},
-			"minecraft:creative_category": {
-				"category": "construction"
-			}
+			"minecraft:display_name": "Unknown Stone"
 		}
 	}
 }

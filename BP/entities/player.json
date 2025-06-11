@@ -4,8 +4,8 @@
 		"description": {
 			"identifier": "minecraft:player",
 			"is_spawnable": false,
-			"is_summonable": false,
-			"is_experimental": false
+			"is_summonable": false
+			
 		},
 		"component_groups": {
 			"minecraft:add_bad_omen": {

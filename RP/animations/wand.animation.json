@@ -3,7 +3,7 @@
 	"animations": {
 		"animation.wand.firstperson": {
 			"loop": true,
-			"animation_length": 2.04167,
+			"animation_length": 2.0417,
 			"bones": {
 				"root": {
 					"rotation": [89.15589, 11.31335, 16.60179],

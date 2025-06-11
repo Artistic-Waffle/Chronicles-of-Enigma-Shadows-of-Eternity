@@ -1,161 +1,42 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "fc:wisteria_log",
-			"properties": {
-				"bridge:block_rotation": [
-					0,
-					1,
-					2
-				]
+			"identifier": "td:wisteria_log",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.logs"
 			}
 		},
 		"components": {
-			"minecraft:unit_cube": {},
+			
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "un_wisteria_log",
+					"texture": "wisteria_log",
 					"render_method": "opaque"
 				},
 				"up": {
-					"texture": "un_wisteria_log_top",
+					"texture": "wisteria_log_top",
 					"render_method": "opaque"
 				},
 				"down": {
-					"texture": "un_wisteria_log_top",
+					"texture": "wisteria_log_top",
 					"render_method": "opaque"
 				}
 			},
-			"minecraft:creative_category": {
-				"category": "nature",
-				"group": "itemGroup.name.log"
+			
+			"minecraft:geometry": {
+				"identifier": "geometry.block"
 			},
-			"minecraft:on_player_placing": {
-				"event": "bridge:update_rotation"
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
 			},
-			"minecraft:loot": "loot_tables/wisteria_log.json",
-			"minecraft:destroy_time": 1
-		},
-		"permutations": [
-			{
-				"condition": "query.block_property('bridge:block_rotation') == 0",
-				"components": {
-					"minecraft:rotation": [
-						0,
-						0,
-						0
-					],
-					"minecraft:on_interact": {
-						"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
-						"event": "fc:become_stripped_0"
-					}
-				}
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
 			},
-			{
-				"condition": "query.block_property('bridge:block_rotation') == 1",
-				"components": {
-					"minecraft:rotation": [
-						90,
-						0,
-						0
-					],
-					"minecraft:on_interact": {
-						"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
-						"event": "fc:become_stripped1"
-					}
-				}
-			},
-			{
-				"condition": "query.block_property('bridge:block_rotation') == 2",
-				"components": {
-					"minecraft:rotation": [
-						0,
-						90,
-						-90
-					],
-					"minecraft:on_interact": {
-						"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_axe')",
-						"event": "fc:become_stripped2"
-					}
-				}
-			}
-		],
-		"events": {
-			"bridge:update_rotation": {
-				"set_block_property": {
-					"bridge:block_rotation": "math.floor(query.cardinal_facing/2)"
-				}
-			},
-			//Updates leaves
-			"fc:set_facing_direction": {
-				"set_block_property": {
-					"fc:facing_direction": "math.floor( query.block_face / 2.0 )"
-				}
-			},
-			//Sets block rotation
-			"fc:become_stripped_0": {
-				"sequence": [
-					{
-						"run_command": {
-							"command": [
-								"setblock ~~~ fc:stripped_wisteria_log",
-								"playsound hit.wood @a ~~~"
-							]
-						}
-					},
-					//Sets custom stripped log with special rotation and plays sound
-					{
-						"damage": {
-							"type": "durability",
-							"amount": 1,
-							"target": "item"
-						}
-					}
-					//Damages axe of player who stripped the log
-				]
-			},
-			"fc:become_stripped1": {
-				"sequence": [
-					{
-						"run_command": {
-							"command": [
-								"structure load stripped_wisteria_log1 ~~~",
-								"playsound hit.wood @a ~~~"
-							]
-						}
-					},
-					//Loads structure (custom stripped log with special rotation) and plays sound
-					{
-						"damage": {
-							"type": "durability",
-							"amount": 1,
-							"target": "item"
-						}
-					}
-					//Damages axe of player who stripped the log
-				]
-			},
-			"fc:become_stripped2": {
-				"sequence": [
-					{
-						"run_command": {
-							"command": [
-								"structure load stripped_wisteria_log2 ~~~",
-								"playsound hit.wood @a ~~~"
-							]
-						}
-					},
-					//Loads structure (custom stripped log with special rotation) and plays sound
-					{
-						"damage": {
-							"type": "durability",
-							"amount": 1,
-							"target": "item"
-						}
-					}
-				]
-			}
+			"minecraft:display_name": "Wisteria Log"
 		}
 	}
 }

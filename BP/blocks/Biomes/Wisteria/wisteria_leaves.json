@@ -1,29 +1,28 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "fc:wisteria_leaves"
+			"identifier": "td:wisteria_leaves"
 		},
 		"components": {
-			"minecraft:unit_cube": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.block"
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "un_wisteria_leaves",
+					"texture": "wisteria_leaves",
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:block_light_absorption": 0,
-			"minecraft:creative_category": {
-				"category": "nature",
-				"group": "itemGroup.name.leaves"
-			},
-			"minecraft:loot": "loot_tables/empty.json",
-			"minecraft:flammable": {
-				"burn_odds": 50,
-				"flame_odds": 50
-			},
-			"minecraft:block_light_emission": 0.5
-		},
-		"events": {}
+			"minecraft:display_name": "Wisteria Leaves"
+		}
 	}
 }

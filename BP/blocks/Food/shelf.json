@@ -1,49 +1,27 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "cook:shelf",
-			"is_experimental": false
+			"identifier": "td:shelf"
+			
 		},
 		"components": {
 			"minecraft:geometry": "geometry.shelf",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "cook_shelf",
+					"texture": "shelf",
 					"render_method": "alpha_test"
 				}
 			},
-			"minecraft:pick_collision": {
-				"origin": [
-					-8,
-					8,
-					-8
-				],
-				"size": [
-					16,
-					8,
-					16
-				]
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
 			},
-			"minecraft:entity_collision": {
-				"origin": [
-					-8,
-					7,
-					-8
-				],
-				"size": [
-					16,
-					7,
-					16
-				]
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
 			},
-			"minecraft:creative_category": {
-				"category": "construction"
-			},
-			"minecraft:block_light_absorption": 0,
-			"bridge:rotate_y_on_place": {
-				"flip": true
-			}
+			"minecraft:display_name": "Shelf"
 		}
 	}
 }

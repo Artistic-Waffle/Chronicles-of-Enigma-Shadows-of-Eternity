@@ -11,10 +11,10 @@
 		"fantasy_dark_staff": {
 			"textures": "textures/items/dark_staff"
 		},
-		"un_pebble": {
+		"pebble": {
 			"textures": "textures/items/pebble"
 		},
-		"un_wisteria_sapling_placer": {
+		"wisteria_sapling_placer": {
 			"textures": "textures/items/wisteria_sapling"
 		},
 		"adamantite_ingot": {
@@ -91,9 +91,6 @@
 		},
 		"tungsten_plate": {
 			"textures": "textures/items/tungsten_plate"
-		},
-		"hammer": {
-			"textures": "textures/items/hammer"
 		}
 	}
 }

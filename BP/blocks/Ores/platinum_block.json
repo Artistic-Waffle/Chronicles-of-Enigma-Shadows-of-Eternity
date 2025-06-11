@@ -1,14 +1,28 @@
-//bridge-file-version: #1
+
 {
-	"format_version": "1.16.0",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "fc:platinum_block"
+			"identifier": "td:platinum_block"
 		},
 		"components": {
-			"minecraft:destroy_time": 14,
-			"minecraft:explosion_resistance": 10
-		},
-		"events": {}
+			"minecraft:geometry": "geometry.block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "platinum_block",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:display_name": "Platinum Block"
+		}
+		
 	}
 }

@@ -1,22 +1,28 @@
-//bridge-file-version: #3
+
 {
-	"format_version": "1.16.0",
+	"format_version": "1.21.8",
 	"minecraft:block": {
 		"description": {
-			"identifier": "fc:bronze_block"
+			"identifier": "td:bronze_block"
 		},
 		"components": {
-			"minecraft:destroy_time": 9,
-			"minecraft:block_light_absorption": 0,
-			"minecraft:block_light_emission": 0,
-			"minecraft:friction": 0.6,
-			"minecraft:explosion_resistance": 3,
-			"minecraft:breathability": "solid",
-			"minecraft:flammable": {
-				"burn_odds": 50,
-				"flame_odds": 0
-			}
-		},
-		"events": {}
+			"minecraft:geometry": "geometry.block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "bronze_block",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, -8],
+				"size": [16, 16, 16]
+			},
+			"minecraft:display_name": "Bronze Block"
+		}
+		
 	}
 }

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.8",
+	"minecraft:item": {
+		"description": {
+			"identifier": "td:pebble",
+			"menu_category": {
+				"group": "itemGroup.name.misc",
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:allow_off_hand": true,
+			"minecraft:icon": "pebble",
+			"minecraft:display_name": {
+				"value": "Pebble"
+			}
+		}
+	}
+}
