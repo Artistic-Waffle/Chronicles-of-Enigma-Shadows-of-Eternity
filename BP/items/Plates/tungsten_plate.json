@@ -1,6 +1,6 @@
 
 {
-	"format_version": "1.21.8",
+	"format_version": "1.21.70",
 	"minecraft:item": {
 		"description": {
 			"identifier": "td:tungsten_plate",
