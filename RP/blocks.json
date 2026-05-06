@@ -82,13 +82,13 @@
 	"stripped_warped_stem_chair":{
 		"sound": "wood" 
 	},
-	"acacia_kitchen_drawer":{
+	"acacia_drawer":{
 		"sound": "wood"
 	},
 	"acacia_cabinet":{
 		"sound": "wood"
 	},
-	"acacia_kitchen_counter":{
+	"acacia_counter":{
 		"sound": "wood"
 	},
 	"blackstone_altar":{

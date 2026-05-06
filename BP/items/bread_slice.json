@@ -1,10 +1,10 @@
 {
-	"format_version": "1.21.70",
+	"format_version": "1.26.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "td:bread_slice",
 			"menu_category": {
-				"group": "itemGroup.name.food",
+				
 				"category": "items"
 			}
 		},

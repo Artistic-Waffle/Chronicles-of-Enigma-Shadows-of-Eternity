@@ -1,8 +1,8 @@
 {
-    "format_version": "1.21.70",
+    "format_version": "1.26.10",
     "minecraft:block": {
         "description": {
-            "identifier": "td:oak_chair",
+            "identifier": "td:stripped_pale_chair",
             "menu_category": {
                 "category": "construction"
             },
@@ -46,10 +46,10 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "oak_chair"
+                    "texture": "stripped_pale_chair"
                 }
             },
-            "minecraft:display_name": "Oak Chair",
+            "minecraft:display_name": "Stripped Pale Chair",
             "minecraft:collision_box" : {
 				"origin": [
 					-6,

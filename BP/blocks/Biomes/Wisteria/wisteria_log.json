@@ -1,11 +1,10 @@
 {
-	"format_version": "1.21.70",
+	"format_version": "1.26.10",
 	"minecraft:block": {
 		"description": {
 			"identifier": "td:wisteria_log",
 			"menu_category": {
-				"category": "construction",
-				"group": "itemGroup.name.logs"
+				"category": "construction"
 			}
 		},
 		"components": {

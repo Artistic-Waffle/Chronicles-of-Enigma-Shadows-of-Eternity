@@ -88,14 +88,14 @@
 		"stripped_warped_stem_chair":{
 			"textures": "textures/blocks/decor/chairs/stripped_warped_stem_chair"
 		},
-		"acacia_kitchen_drawer":{
-			"textures":"textures/blocks/decor/acacia_kitchen_drawer"
+		"acacia_drawer":{
+			"textures":"textures/blocks/decor/kitchen/acacia_drawer"
 		},
 		"acacia_cabinet":{
-			"textures":"textures/blocks/decor/acacia_cabinet"
+			"textures":"textures/blocks/decor/kitchen/acacia_cabinet"
 		},
-		"acacia_kitchen_counter":{
-			"textures":"textures/blocks/decor/acacia_kitchen_counter"
+		"acacia_counter":{
+			"textures":"textures/blocks/decor/kitchen/acacia_counter"
 		},
 		"blackstone_altar":{
 			"textures": "textures/blocks/blackstone_altar"
@@ -226,6 +226,9 @@
 		"window":{
 			"textures":"textures/blocks/decor/windows/window"
 		},
+		"window_double":{
+			"textures":"textures/blocks/decor/windows/window_double"
+		},
 		"twilight_gloom_side":{
 			"textures": "textures/blocks/biomes/twilight/twilight_gloom_side"
 		},
@@ -249,6 +252,12 @@
 		},
 		"spruce_chair_large":{
 			"textures" : "textures/blocks/wip/spruce_chair_large"
+		},
+		"stripped_pale_chair":{
+			"textures": "textures/blocks/decor/chairs/stripped_pale_chair"
+		},
+		"pale_chair":{
+			"textures": "textures/blocks/decor/chairs/pale_chair"
 		},
 		"wisteria_leaves":{
 			"textures": "textures/blocks/biomes/wisteria/wisteria_leaves"
@@ -342,7 +351,8 @@
 		},
 		"aluminum_ore_deepslate":{
 			"textures": "textures/blocks/minerals/ores/aluminum_ore_deepslate"
-		},"black_steel_block":{
+		},
+		"black_steel_block":{
 			"textures": "textures/blocks/minerals/blocks/black_steel_block"
 		},
 		"steel_block":{
@@ -449,6 +459,27 @@
 		},
 		"zinc_ore_deepslate":{
 			"textures": "textures/blocks/minerals/ores/zinc_ore_deepslate"
+		},
+		"oak_drawer":{
+			"textures":"textures/blocks/decor/kitchen/oak_drawer"
+		},
+		"oak_cabinet":{
+			"textures":"textures/blocks/decor/kitchen/oak_cabinet"
+		},
+		"oak_double_cabinet":{
+			"textures":"textures/blocks/decor/kitchen/oak_double_cabinet"
+		},
+		"oak_double_glass_cabinet":{
+			"textures":"textures/blocks/decor/kitchen/oak_double_glass_cabinet"
+		},
+		"oak_glass_cabinet":{
+			"textures":"textures/blocks/decor/kitchen/oak_glass_cabinet"
+		},
+		"oak_double_drawer":{
+			"textures":"textures/blocks/decor/kitchen/oak_double_drawer"
+		},
+		"bar_table":{
+			"textures": "textures/blocks/decor/tables/bar_table"
 		}
 	}
 }

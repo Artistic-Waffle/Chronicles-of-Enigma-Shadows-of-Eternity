@@ -1,8 +1,8 @@
 {
-    "format_version": "1.21.70",
+    "format_version": "1.26.10",
     "minecraft:block": {
         "description": {
-            "identifier": "td:oak_table",
+            "identifier": "td:pale_table",
             "menu_category": {
                 "category": "construction"
             }
@@ -30,11 +30,11 @@
             },
             "minecraft:material_instances": {
                 "*":{
-                    "texture": "oak_table",
+                    "texture": "pale_table",
                     "render_method": "alpha_test"
                 }
             },
-            "minecraft:display_name": "Oak Table"
+            "minecraft:display_name": "Pale Table"
         }
         
     }

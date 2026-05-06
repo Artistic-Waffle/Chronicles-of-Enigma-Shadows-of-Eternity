@@ -1,10 +1,10 @@
 {
-	"format_version": "1.21.70",
+	"format_version": "1.26.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "td:wisteria_sapling_placer",
 			"menu_category": {
-				"group": "itemGroup.name.sapling",
+			
 				"category": "items"
 			}
 		},

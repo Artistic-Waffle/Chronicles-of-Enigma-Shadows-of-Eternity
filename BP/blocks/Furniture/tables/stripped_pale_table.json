@@ -1,8 +1,8 @@
 {
-    "format_version": "1.21.70",
+    "format_version": "1.26.10",
     "minecraft:block": {
         "description": {
-            "identifier": "td:stripeed_oak_table",
+            "identifier": "td:stripeed_pale_table",
             "menu_category": {
                 "category": "construction"
             }
@@ -30,11 +30,11 @@
             },
             "minecraft:material_instances": {
                 "*":{
-                    "texture": "stripped_oak_table",
+                    "texture": "stripped_pale_table",
                     "render_method": "alpha_test"
                 }
             },
-            "minecraft:display_name": "Stripped Oak Table"
+            "minecraft:display_name": "Stripped Pale Table"
         }
         
     }

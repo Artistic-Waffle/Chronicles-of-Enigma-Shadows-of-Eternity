@@ -1,10 +1,10 @@
 
 {
-	"format_version": "1.21.70",
+	"format_version": "1.26.10",
 	"minecraft:item": {
 		"description": {
 			"menu_category": {
-				"group": "itemGroup.name.ingots",
+				
 				"category": "items"
 			},
 			"identifier": "td:silver_ingot"

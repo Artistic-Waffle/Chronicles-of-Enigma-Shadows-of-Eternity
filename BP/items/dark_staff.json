@@ -1,10 +1,9 @@
 {
-	"format_version": "1.21.70",
+	"format_version": "1.26.10",
 	"minecraft:item": {
 		"description": {
 			"identifier": "fantasy:dark_staff",
 			"menu_category": {
-				"group": "itemGroup.name.fantasy",
 				"category": "items"
 			}
 		},
