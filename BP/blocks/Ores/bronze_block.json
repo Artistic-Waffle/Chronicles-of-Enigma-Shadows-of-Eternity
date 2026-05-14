@@ -6,7 +6,7 @@
 			"identifier": "td:bronze_block"
 		},
 		"components": {
-			"minecraft:geometry": "geometry.block",
+			"minecraft:geometry": "geometry.unit_cube",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "bronze_block",

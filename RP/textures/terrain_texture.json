@@ -480,6 +480,25 @@
 		},
 		"bar_table":{
 			"textures": "textures/blocks/decor/tables/bar_table"
+		},
+		"crystal_log":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/crystal_log"
+		},
+		"prism_grass":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/prism_grass"
+		},
+		"prism_log":{		
+			"textures": "textures/blocks/biomes/prismveil_wilds/prism_log"
+		},
+		
+		"prism_soil":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/prism_soil"
+		},
+		"veilstone":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/veilstone"
+		},
+		"veilmoss":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/veilmoss"
 		}
 	}
 }

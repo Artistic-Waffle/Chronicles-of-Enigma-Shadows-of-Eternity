@@ -6,7 +6,7 @@
 			"identifier": "td:silver_ore"
 		},
 		"components": {
-			"minecraft:geometry": "geometry.block",
+			"minecraft:geometry": "geometry.unit_cube",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "silver_ore",

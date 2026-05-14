@@ -6,7 +6,7 @@
 			"identifier": "td:electrum_ore"
 		},
 		"components": {
-			"minecraft:geometry": "geometry.block",
+			"minecraft:geometry": "geometry.unit_cube",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "electrum_ore",

@@ -6,7 +6,7 @@
 			"identifier": "td:platinum_block"
 		},
 		"components": {
-			"minecraft:geometry": "geometry.block",
+			"minecraft:geometry": "geometry.unit_cube",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "platinum_block",

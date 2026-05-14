@@ -53,7 +53,7 @@
                 }
             },
             "minecraft:geometry":{
-                "identifier": "geometry.block"
+                "identifier": "geometry.unit_cube"
             }
         }
     }

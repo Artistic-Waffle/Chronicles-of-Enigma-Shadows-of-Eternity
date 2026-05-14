@@ -6,7 +6,7 @@
 		},
 		"components": {
 			"minecraft:geometry": {
-				"identifier": "geometry.block"
+				"identifier": "geometry.unit_cube"
 			},
 			"minecraft:collision_box": {
 				"origin": [-8, 0, -8],

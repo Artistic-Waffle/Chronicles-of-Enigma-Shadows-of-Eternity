@@ -29,7 +29,7 @@
 			},
             "minecraft:display_name": "Ethereal Verdure",
             "minecraft:geometry":{
-                "identifier": "geometry.block"
+                "identifier": "geometry.unit_cube"
             }
         }
     }
