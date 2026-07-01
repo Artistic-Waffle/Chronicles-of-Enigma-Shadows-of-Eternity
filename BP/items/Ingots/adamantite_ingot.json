@@ -1,6 +1,6 @@
 
 {
-	"format_version": "1.26.10",
+	"format_version": "1.26.3",
 	"minecraft:item": {
 		"description": {
 			"identifier": "td:adamantite_ingot",

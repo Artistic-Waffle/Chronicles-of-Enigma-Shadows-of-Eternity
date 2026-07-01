@@ -2,7 +2,7 @@
     "format_version": "1.26.0",
     "minecraft:block": {
         "description": {
-            "identifier": "td:veilstone",
+            "identifier": "td:gleamstone",
             "menu_category": {
                 "category": "construction"
             }
@@ -10,7 +10,7 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "veilstone",
+                    "texture": "gleamstone",
                     "render_method": "opaque"
                 }
             },
@@ -25,7 +25,7 @@
                 "origin": [-8,0,-8],
                 "size": [16,16,16]
             },
-            "minecraft:display_name": "Veilstone"
+            "minecraft:display_name": "Gleamstone"
         }
     }
 }

@@ -494,11 +494,20 @@
 		"prism_soil":{
 			"textures": "textures/blocks/biomes/prismveil_wilds/prism_soil"
 		},
-		"veilstone":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/veilstone"
+		"cobbled_gleamstone":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/cobbled_gleamstone"
+		},
+		"gleamstone":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/gleamstone"
 		},
 		"veilmoss":{
 			"textures": "textures/blocks/biomes/prismveil_wilds/veilmoss"
+		},
+		"crystal_bloom_leaves":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/crystal_bloom_leaves"
+		},
+		"prismsprig":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/prismsprig"
 		}
 	}
 }

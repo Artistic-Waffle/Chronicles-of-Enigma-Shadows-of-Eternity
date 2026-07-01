@@ -1,0 +1,36 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:prismsprig",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+        "minecraft:material_instances": {
+            "*": {
+                "texture": "prismsprig",
+                "render_method": "alpha_test"
+            }
+        },
+        "minecraft:geometry": {
+            "identifier": "geometry.plane"
+        },
+        "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [-6,0,-6],
+                "size": [12,11,12]
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": ["up"],
+                        "block_filter": ["td:prism_grass"]
+                    }
+                ]
+            },
+            "minecraft:display_name": "Prismsprig"
+        }
+    }
+}d
