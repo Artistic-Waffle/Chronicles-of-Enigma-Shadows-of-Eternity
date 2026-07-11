@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:spectral_bloomstone",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "spectral_bloomstone",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.block"
+            },
+            "minecraft:collision_box": {
+                "origin": [-8,0,-8],
+                "size": [16,16,16]
+            },
+            "minecraft:selection_box": {
+                "origin": [-8,0,-8],
+                "size": [16,16,16]
+            },
+            "minecraft:display_name": "Spectral Bloomstone"
+        }
+    }
+}

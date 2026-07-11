@@ -15,7 +15,7 @@
                 }
             },
             "minecraft:geometry": {
-                "identifier": "geometry.block"
+                "identifier": "minecraft:geometry.full_block"
             },
             "minecraft:collision_box": {
                 "origin": [-8,0,-8],

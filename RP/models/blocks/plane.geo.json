@@ -18,16 +18,15 @@
 						{
 							"origin": [-9, 0, 0],
 							"size": [18, 16, 0],
-							"inflate": 0,
 							"pivot": [0, 8, 0],
 							"rotation": [0, -45, 0],
 							"uv": {
 								"north": {"uv": [0, 0], "uv_size": [18, 16]},
 								"east": {"uv": [0, 0], "uv_size": [0, 16]},
-								"south": {"uv": [0, 16], "uv_size": [18, 16]},
+								"south": {"uv": [18, 16], "uv_size": [-18, 16]},
 								"west": {"uv": [0, 0], "uv_size": [0, 16]},
 								"up": {"uv": [0, 0], "uv_size": [18, 0]},
-								"down": {"uv": [0, 0], "uv_size": [18, 0]}
+								"down": {"uv": [18, 0], "uv_size": [-18, 0]}
 							}
 						},
 						{

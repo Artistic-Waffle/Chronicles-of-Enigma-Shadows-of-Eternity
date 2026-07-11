@@ -1,0 +1,29 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:petalshard_sprout",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "petalshard_sprout",
+                    "render_method": "alpha_test_single_sided",
+                    "face_dimming": false
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.plane_double"
+            },
+           "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [-6,0,-6],
+                "size": [12,11,12]
+            },
+            "minecraft:display_name": "Petalshard Sprout"
+        }
+    }
+}

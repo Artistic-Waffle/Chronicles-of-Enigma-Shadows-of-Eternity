@@ -4,8 +4,8 @@
 		{
 			"description": {
 				"identifier": "geometry.crystal_cluster",
-				"texture_width": 16,
-				"texture_height": 16,
+				"texture_width": 32,
+				"texture_height": 32,
 				"visible_bounds_width": 2,
 				"visible_bounds_height": 2.5,
 				"visible_bounds_offset": [0, 0.75, 0]
@@ -21,12 +21,12 @@
 							"pivot": [0, 8, 0],
 							"rotation": [0, -37.5, 0],
 							"uv": {
-								"north": {"uv": [16, 1], "uv_size": [-16, 15]},
-								"east": {"uv": [0, 1], "uv_size": [0, 15]},
-								"south": {"uv": [0, 1], "uv_size": [16, 15]},
-								"west": {"uv": [0, 1], "uv_size": [0, 15]},
-								"up": {"uv": [16, 0], "uv_size": [-16, 0]},
-								"down": {"uv": [16, 0], "uv_size": [-16, 0]}
+								"north": {"uv": [0, 0], "uv_size": [16, 15]},
+								"east": {"uv": [0, 0], "uv_size": [0, 15]},
+								"south": {"uv": [0, 15], "uv_size": [16, 15]},
+								"west": {"uv": [0, 0], "uv_size": [0, 15]},
+								"up": {"uv": [0, 0], "uv_size": [16, 0]},
+								"down": {"uv": [0, 0], "uv_size": [16, 0]}
 							}
 						},
 						{
@@ -35,11 +35,11 @@
 							"pivot": [0, 8, 0],
 							"rotation": [0, -45, 0],
 							"uv": {
-								"north": {"uv": [0, 1], "uv_size": [0, 15]},
-								"east": {"uv": [16, 1], "uv_size": [-16, 15]},
-								"south": {"uv": [0, 1], "uv_size": [0, 15]},
-								"west": {"uv": [0, 1], "uv_size": [16, 15]},
-								"up": {"uv": [0, 16], "uv_size": [0, -16]},
+								"north": {"uv": [0, 0], "uv_size": [0, 15]},
+								"east": {"uv": [16, 0], "uv_size": [16, 15]},
+								"south": {"uv": [0, 0], "uv_size": [0, 15]},
+								"west": {"uv": [16, 15], "uv_size": [16, 15]},
+								"up": {"uv": [0, 0], "uv_size": [0, 16]},
 								"down": {"uv": [0, 16], "uv_size": [0, -16]}
 							}
 						}

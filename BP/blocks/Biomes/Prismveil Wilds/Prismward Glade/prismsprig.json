@@ -11,7 +11,8 @@
         "minecraft:material_instances": {
             "*": {
                 "texture": "prismsprig",
-                "render_method": "alpha_test"
+                "render_method": "alpha_test_single_sided",
+                "face_dimming": false
             }
         },
         "minecraft:geometry": {
@@ -33,4 +34,4 @@
             "minecraft:display_name": "Prismsprig"
         }
     }
-}d
+}

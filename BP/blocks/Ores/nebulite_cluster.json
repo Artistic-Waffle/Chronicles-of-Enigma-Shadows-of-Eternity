@@ -12,7 +12,8 @@
             "minecraft:material_instances": {
                 "*": {
                     "texture": "nebulite_cluster",
-                    "render_method": "alpha_test"
+                    "render_method": "alpha_test",
+                    "face_dimming": false
                 }
             },
             "minecraft:collision_box": {

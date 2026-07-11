@@ -1,0 +1,31 @@
+{
+    "format_version": "1.26.3",
+    "minecraft:block": {
+        "description": {
+            "identifier": "td:veildepth_bloomwake_ore",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "veildepth_bloomwake_ore",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+            "minecraft:collision_box": {
+                "origin": [-8,0,-8],
+                "size": [16,16,16]
+            },
+            "minecraft:selection_box": {
+                "origin": [-8,0,-8],
+                "size": [16,16,16]
+            },
+            "minecraft:display_name": "Veildepth Bloomwake Ore"
+        }
+    }
+}

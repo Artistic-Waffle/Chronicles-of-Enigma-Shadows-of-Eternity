@@ -91,6 +91,12 @@
 		},
 		"tungsten_plate": {
 			"textures": "textures/items/tungsten_plate"
+		},
+		"test": {
+			"textures": "textures/items/test"
+		},
+		"pasted": {
+			"textures": "textures/items/pasted"
 		}
 	}
 }
