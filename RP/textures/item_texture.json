@@ -97,6 +97,24 @@
 		},
 		"pasted": {
 			"textures": "textures/items/pasted"
+		},
+		"raw_shardiron": {
+			"textures": "textures/items/raw_shardiron"
+		},
+		"shardiron_shard": {
+			"textures": "textures/items/shardiron_shard"
+		},
+		"raw_aetherite": {
+			"textures": "textures/items/raw_aetherite"
+		},
+		"aetherite_shard": {
+			"textures": "textures/items/aetherite_shard"
+		},
+		"raw_lumenite": {
+			"textures": "textures/items/raw_lumenite"
+		},
+		"lumenite_shard": {
+			"textures": "textures/items/lumenite_shard"
 		}
 	}
 }

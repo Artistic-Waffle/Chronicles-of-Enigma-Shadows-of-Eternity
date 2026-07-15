@@ -621,6 +621,18 @@
 		},
 		"veildepth_aetherite_ore":{
 			"textures": "textures/blocks/biomes/prismveil_wilds/veildepth_aetherite_ore"
+		},
+		"shardiron_block":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/shardiron_block"
+		},
+		"lumenite_block":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/lumenite_block"
+		},
+		"bloomwake_block":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/bloomwake_block"
+		},
+		"aetherite_block":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/aetherite_block"
 		}
 	}
 }
