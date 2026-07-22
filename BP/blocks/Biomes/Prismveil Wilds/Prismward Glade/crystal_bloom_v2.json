@@ -11,11 +11,13 @@
             "minecraft:material_instances": {
                 "*": {
                     "texture": "crystal_bloom_leaves_v2",
-                    "render_method": "alpha_test_to_opaque"
+                    "render_method": "alpha_test"
                 }
             },
             "minecraft:geometry": {
-                "identifier": "minecraft:geometry.full_block"
+                "identifier": "geometry.block",
+                "culling": "td:leaves_cull",
+                "culling_layer": "minecraft:culling_layer.leaves"
             },
             "minecraft:collision_box": {
                 "origin": [-8,0,-8],

@@ -2,7 +2,7 @@
     "format_version": "1.26.3",
     "minecraft:block": {
         "description": {
-            "identifier": "td:slyphrite_block",
+            "identifier": "td:raw_bloomwake_block",
             "menu_category": {
                 "category": "nature"
             }
@@ -10,7 +10,7 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "slyphrite_block",
+                    "texture": "raw_bloomwake_block",
                     "render_method": "opaque"
                 }
             },
@@ -25,7 +25,7 @@
                 "origin": [-8,0,-8],
                 "size": [16,16,16]
             },
-            "minecraft:display_name": "Slyphrite Block"
+            "minecraft:display_name": "Raw Bloomwake Block"
         }
     }
 }

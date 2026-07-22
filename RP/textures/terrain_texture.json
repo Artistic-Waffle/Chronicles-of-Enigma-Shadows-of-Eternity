@@ -334,35 +334,17 @@
 		"adamantite_ore":{
 			"textures": "textures/blocks/minerals/ores/adamantite_ore"
 		},
-		"adamantite_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/adamantite_ore_deepslate"
-		},
-		"nickel_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/nickel_ore_deepslate"
-		},
-		"platinum_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/platinum_ore_deepslate"
-		},
 		"aluminum_block":{
 			"textures": "textures/blocks/minerals/blocks/aluminum_block"
 		},
 		"aluminum_ore":{
 			"textures": "textures/blocks/minerals/ores/aluminum_ore"
 		},
-		"aluminum_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/aluminum_ore_deepslate"
-		},
 		"black_steel_block":{
 			"textures": "textures/blocks/minerals/blocks/black_steel_block"
 		},
 		"steel_block":{
 			"textures": "textures/blocks/minerals/blocks/steel_block"
-		},
-		"steel_ore":{
-			"textures": "textures/blocks/minerals/ores/steel_ore"
-		},
-		"steel_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/steel_ore_deepslate"
 		},
 		"brass_block":{
 			"textures": "textures/blocks/minerals/blocks/brass_block"
@@ -376,17 +358,11 @@
 		"titanium_ore":{
 			"textures": "textures/blocks/minerals/ores/titanium_ore"
 		},
-		"titanium_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/titanium_ore_deepslate"
-		},
 		"tungsten_block":{
 			"textures": "textures/blocks/minerals/blocks/tungsten_block"
 		},
 		"tungsten_ore":{
 			"textures": "textures/blocks/minerals/ores/tungsten_ore"
-		},
-		"tungsten_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/tungsten_ore_deepslate"
 		},
 		"cobalt_block":{
 			"textures": "textures/blocks/minerals/blocks/cobalt_block"
@@ -394,17 +370,11 @@
 		"cobalt_ore":{
 			"textures": "textures/blocks/minerals/ores/cobalt_ore"
 		},
-		"cobalt_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/cobalt_ore_deepslate"
-		},
 		"electrum_block":{
 			"textures": "textures/blocks/minerals/blocks/electrum_block"
 		},
 		"electrum_ore":{
 			"textures": "textures/blocks/minerals/ores/electrum_ore"
-		},
-		"electrum_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/electrum_ore_deepslate"
 		},
 		"lead_block":{
 			"textures": "textures/blocks/minerals/blocks/lead_block"
@@ -412,26 +382,18 @@
 		"lead_ore":{
 			"textures": "textures/blocks/minerals/ores/lead_ore"
 		},
-		"lead_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/lead_ore_deepslate"
-		},
 		"mythril_block":{
 			"textures": "textures/blocks/minerals/blocks/mythril_block"
 		},
 		"mythril_ore":{
 			"textures": "textures/blocks/minerals/ores/mythril_ore"
 		},
-		"mythril_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/mythril_ore_deepslate"
-		},
 		"silver_block":{
 			"textures": "textures/blocks/minerals/blocks/silver_block"
 		},
 		"silver_ore":{
 			"textures": "textures/blocks/minerals/ores/silver_ore"
-		},
-		"silver_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/silver_ore_deepslate"
+
 		},
 		"tin_block":{
 			"textures": "textures/blocks/minerals/blocks/tin_block"
@@ -439,26 +401,17 @@
 		"tin_ore":{
 			"textures": "textures/blocks/minerals/ores/tin_ore"
 		},
-		"tin_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/tin_ore_deepslate"
-		},
 		"uranium_block":{
 			"textures": "textures/blocks/minerals/blocks/uranium_block"
 		},
 		"uranium_ore":{
 			"textures": "textures/blocks/minerals/ores/uranium_ore"
 		},
-		"uranium_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/uranium_ore_deepslate"
-		},
 		"zinc_block":{
 			"textures": "textures/blocks/minerals/blocks/zinc_block"
 		},
 		"zinc_ore":{
 			"textures": "textures/blocks/minerals/ores/zinc_ore"
-		},
-		"zinc_ore_deepslate":{
-			"textures": "textures/blocks/minerals/ores/zinc_ore_deepslate"
 		},
 		"oak_drawer":{
 			"textures":"textures/blocks/decor/kitchen/oak_drawer"
@@ -550,9 +503,6 @@
 		"crystalized_sprectral_block":{
 			"textures": "textures/blocks/biomes/prismveil_wilds/crystalized_sprectral_block"
 		},
-		"gleamstone_v2":{
-			"textures": "textures/blocks/biomes/prismveil_wilds/gleamstone_v2"
-		},
 		"cobbled_gleamstone_v2":{
 			"textures": "textures/blocks/biomes/prismveil_wilds/cobbled_gleamstone_v2"
 		},
@@ -631,8 +581,26 @@
 		"bloomwake_block":{
 			"textures": "textures/blocks/biomes/prismveil_wilds/bloomwake_block"
 		},
+		"raw_bloomwake_block":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/raw_bloomwake_block"
+		},
 		"aetherite_block":{
 			"textures": "textures/blocks/biomes/prismveil_wilds/aetherite_block"
+		},
+		"slyphrite_block":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/slyphrite_block"
+		},
+		"raw_slyphrite_block":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/raw_slyphrite_block"
+		},
+		"prismite_block":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/prismite_block"
+		},
+		"veilrite_block":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/veilrite_block"
+		},
+		"starvein_block":{
+			"textures": "textures/blocks/biomes/prismveil_wilds/starvein_block"
 		}
 	}
 }

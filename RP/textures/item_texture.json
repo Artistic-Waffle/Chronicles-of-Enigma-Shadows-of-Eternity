@@ -115,6 +115,36 @@
 		},
 		"lumenite_shard": {
 			"textures": "textures/items/lumenite_shard"
+		},
+		"raw_slyphrite": {
+			"textures": "textures/items/raw_slyphrite"
+		},
+		"slyphrite_shard": {
+			"textures": "textures/items/slyphrite_shard"
+		},
+		"raw_bloomwake_ore": {
+			"textures": "textures/items/raw_bloomwake_ore"
+		},
+		"bloomwake_crystal": {
+			"textures": "textures/items/bloomwake_crystal"
+		},
+		"raw_prismite": {
+			"textures": "textures/items/raw_prismite"
+		},
+		"prismite_shard": {
+			"textures": "textures/items/prismite_shard"
+		},
+		"raw_veilrite": {
+			"textures": "textures/items/raw_veilrite"
+		},
+		"veilrite_shard": {
+			"textures": "textures/items/veilrite_shard"
+		},
+		"raw_starvein": {
+			"textures": "textures/items/raw_starvein"
+		},
+		"starvein_crux": {
+			"textures": "textures/items/starvein_crux"
 		}
 	}
 }

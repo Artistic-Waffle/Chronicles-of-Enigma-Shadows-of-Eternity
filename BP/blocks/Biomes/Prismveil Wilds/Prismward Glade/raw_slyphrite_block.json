@@ -2,7 +2,7 @@
     "format_version": "1.26.3",
     "minecraft:block": {
         "description": {
-            "identifier": "td:aetherite_ore",
+            "identifier": "td:raw_slyphrite_block",
             "menu_category": {
                 "category": "nature"
             }
@@ -10,7 +10,7 @@
         "components": {
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "aetherite_ore",
+                    "texture": "raw_slyphrite_block",
                     "render_method": "opaque"
                 }
             },
@@ -25,7 +25,7 @@
                 "origin": [-8,0,-8],
                 "size": [16,16,16]
             },
-            "minecraft:display_name": "Aetherite Ore"
+            "minecraft:display_name": "Raw Slyphrite Block"
         }
     }
 }
