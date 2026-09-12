@@ -92,12 +92,16 @@
 		"tungsten_plate": {
 			"textures": "textures/items/tungsten_plate"
 		},
+		// test items
+
 		"test": {
 			"textures": "textures/items/test"
 		},
 		"pasted": {
 			"textures": "textures/items/pasted"
 		},
+		//shards and raw materials
+
 		"raw_shardiron": {
 			"textures": "textures/items/raw_shardiron"
 		},
@@ -145,6 +149,37 @@
 		},
 		"starvein_crux": {
 			"textures": "textures/items/starvein_crux"
+		},
+		//veyra runes
+		"vael_rune": {
+			"textures": "textures/items/veyra/vael_rune"
+		},
+		"vara_rune": {
+			"textures": "textures/items/veyra/vara_rune"
+		},
+		"unknown_rune": {
+			"textures": "textures/items/veyra/unknown_rune"
+		},
+		"blank_veyra_rune": {
+			"textures": "textures/items/veyra/blank_veyra_rune"
+		},
+		"eko_rune": {
+			"textures": "textures/items/veyra/eko_rune"
+		},
+		"keth_rune": {
+			"textures": "textures/items/veyra/keth_rune"
+		},
+		"nox_rune": {
+			"textures": "textures/items/veyra/nox_rune"
+		},
+		"ora_rune": {
+			"textures": "textures/items/veyra/ora_rune"
+		},
+		"tham_rune": {
+			"textures": "textures/items/veyra/tham_rune"
+		},
+		"aeth_rune": {
+			"textures": "textures/items/veyra/aeth_rune"
 		}
 	}
 }

@@ -1,0 +1,26 @@
+{
+	"format_version": "1.26.3",
+	"minecraft:item": {
+		"description": {
+			"identifier": "td:blank_veyra_rune",
+			"menu_category": {
+				
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"textures": {
+					"default": "blank_veyra_rune"
+				}
+			},
+			"minecraft:max_stack_size": 8,
+			"minecraft:should_despawn": true,
+			"minecraft:hand_equipped": false,
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:display_name": {
+				"value": "Blank Veyra Rune"
+			}
+		}
+	}
+}

@@ -19,7 +19,8 @@
             "minecraft:can_destroy_in_creative": false,
             "minecraft:display_name": {
                 "value": "Starvein Crux"
-            }
+            },
+            "minecraft:glint": true
         }
     }
 }
